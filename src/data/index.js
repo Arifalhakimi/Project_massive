@@ -25,8 +25,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    path: "testimonial",
-    text: "Testimonial",
+    path: "mitra",
+    text: "Mitra",
   },
   {
     id: 4,
@@ -54,6 +54,8 @@ export const semuaKelas = [
     buy: "Lanjut",
     address: "Kp. Pisangan - Karangpatri . 5 KM",
     delay: "1300",
+    desc: "Bengkel Mang Uloh adalah bengkel motor umum yang berada di wilayah desa Karangpatri Kecamatan Pebayuran Kabupaten Bekasi Jawa Barat. Bengkel ini sudah sangat melegenda, karena sudah ada sejak tahun 1992. Bengkel ini didirikan oleh Mang Uloh sendiri. Bengkel ini sangat banyak diminati oleh kalangan hobiis otomotif, karena para montir atau pekerja di bengkel ini memiliki skill yang di atas rata-rata, maka tak heran bengkel ini selalu ramai pengunjung.",
+    
   },
   {
     id: 2,
@@ -274,6 +276,39 @@ export const testimonial = [
     image: People3,
     name: "People 9",
     skill: "Web Developer",
+  },
+];
+
+export const manfaatMitra = [
+  {
+    id: 1,
+    title: "Akses Utama",
+    desc: "Mitra bengkel akan memiliki halaman khusus pada website Bengkel.in dengan tampilan yang menarik"
+  },
+  {
+    id: 2,
+    title: "Peningkatan Profit",
+    desc: "Mitra bengkel dapat mengiklankan promo-promonya melalui website Bengkel.in"
+  },
+  {
+    id: 3,
+    title: "Kelola Bisnis Berkelanjutan",
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+  },
+  {
+    id: 4,
+    title: "Kelola Bisnis Berkelanjutan",
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+  },
+  {
+    id: 5,
+    title: "Kelola Bisnis Berkelanjutan",
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+  },
+  {
+    id: 6,
+    title: "Kelola Bisnis Berkelanjutan",
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
   },
 ];
 
