@@ -12,8 +12,6 @@ import FaqComponent from "../components/FaqComponent";
 import RegistrasiFormMitra from "../components/RegistrasiFormMitra";
 
 
-
-
 const mitra = () => {
     return (
         <div className='mitra-page'>

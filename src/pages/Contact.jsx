@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import FaqComponent from "../components/FaqComponent";
 import AboutImage from '../assets/img/kelas/kelas-5.jpg';
 
+
 const ContactPage = () => {
   return (
     <div className="Contact-page">

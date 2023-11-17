@@ -10,7 +10,7 @@ import FaqPage from "./pages/FaqPage";
 import Contact from "./pages/Contact";
 import MitraPage from "./pages/MitraPage";
 import InformasiComponent from "./components/InformasiComponent";
-
+import DashboarMitra from "./pages/Mitra/DashboarMitra";
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Route path="/kontak" Component={Contact} />
       <Route path="/mitra" Component={MitraPage} />
       <Route path="/informasi" Component={InformasiComponent} />
+      <Route path="/dashboard" Component={DashboarMitra} />
     </Routes>
     <FooterComponent/>
   </div>

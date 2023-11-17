@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { testimonial } from "../data/index";
 import FaqComponent from "../components/FaqComponent";
 
+
+
 const Testimonial = () => {
   return (
     <div className="bg-light testimonial-page">
