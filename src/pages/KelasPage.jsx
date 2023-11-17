@@ -24,7 +24,7 @@ const KelasPage = () => {
                     <input type="text" className="form-control animate__animated animate__fadeInUp animate__delay-1s w-100 jus" id="seacrh" placeholder="Cari" name="seacrh" />
                   </div>
                 </form>
-                <div className="button-bengkel">
+                <div className="button-bengkel animate__animated animate__fadeInUp animate__delay-1s">
                   <button className="btn btn-danger mx-3">Terdekat</button>
                   <button className="btn btn-danger">Populer</button>
                 </div>

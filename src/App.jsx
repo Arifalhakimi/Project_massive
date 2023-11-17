@@ -7,8 +7,8 @@ import FooterComponent from "./components/FooterComponents";
 import HomePage from "./pages/HomePage";
 import KelasPage from "./pages/KelasPage";
 import FaqPage from "./pages/FaqPage";
-import SyaratKetenPage from "./pages/SyaratKetenPage";
-import mitra from "./pages/mitra";
+import Contact from "./pages/Contact";
+import MitraPage from "./pages/MitraPage";
 import InformasiComponent from "./components/InformasiComponent";
 
 
@@ -20,8 +20,8 @@ function App() {
       <Route path="/" Component={HomePage} />
       <Route path="/kelas" Component={KelasPage} />
       <Route path="/faq" Component={FaqPage} />
-      <Route path="/kontak" Component={SyaratKetenPage} />
-      <Route path="/mitra" Component={mitra} />
+      <Route path="/kontak" Component={Contact} />
+      <Route path="/mitra" Component={MitraPage} />
       <Route path="/informasi" Component={InformasiComponent} />
     </Routes>
     <FooterComponent/>
