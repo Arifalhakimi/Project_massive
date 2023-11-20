@@ -30,6 +30,7 @@ const NavbarComponent = () => {
     const handleShow = () => setShowModal(true);
     const handleClose = () => setShowModal(false);
 
+
     return (
         <div>
             <Navbar expand="lg" className={changeColor ? "color-active" : ""} >
@@ -48,11 +49,12 @@ const NavbarComponent = () => {
                                 );
                             }
                             )}
+
                         </Nav>
                         <div className="text-center">
-                        <button className="btn btn-outline-light rounded-1" onClick={handleShow}>Join With Us</button>
-                        {/* Render MyModal hanya jika showModal bernilai true */}
-                        {showModal && <MyModal show={true} handleClose={handleClose} />}
+                            <button className="btn btn-outline-light rounded-1" onClick={handleShow}>Join With Us</button>
+                            {/* Render MyModal hanya jika showModal bernilai true */}
+                            {showModal && <MyModal show={true} handleClose={handleClose} />}
                         </div>
                     </Navbar.Collapse>
                 </Container>

@@ -1,23 +1,36 @@
-// Sidebar.jsx
-
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { AiOutlineHome, AiOutlineUser, AiOutlineSetting } from 'react-icons/ai';
+import GambarProfile from "../assets/img/logo_home.png";
+import { sideBarlink } from "../data/index";
 
 const Sidebar = () => {
+    const [activeLink, setActiveLink] = useState(null);
+
     return (
         <div className="sidebar">
-            <NavLink to="/" className="sidebar-link" activeClassName="active-link">
-                <AiOutlineHome />
-                Home
-            </NavLink>
-            <NavLink to="/profile" className="sidebar-link" activeClassName="active-link">
-                <AiOutlineUser />
-                Profile
-            </NavLink>
-            <NavLink to="/settings" className="sidebar-link" activeClassName="active-link">
-                <AiOutlineSetting />
-                Settings
-            </NavLink>
+            <div className='gambar-profile-mitra mb-2'>
+                <img src={GambarProfile} alt="" />
+                <div className='text-profile text-center'>
+                    <h6>Hana Husna</h6>
+                    <p>Faiz Bengkel</p>
+                </div>
+            </div>
+            <div className='sidebar-content-link'>
+                {sideBarlink.map((Links) => (
+                    <div key={Links.id} className='sidebar-link'>
+                        <NavLink
+                            to={Links.path}
+                            activeClassName={activeLink === Links.path ? 'active' : ''}
+                            onClick={() => setActiveLink(Links.path)}
+                        >
+                            <div className='d-flex'>
+                                {Links.icon}
+                                <h6> {Links.text} </h6>
+                            </div>
+                        </NavLink>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

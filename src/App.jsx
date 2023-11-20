@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-
 import NavbarComponent from "./components/NavbarComponent";
 import FooterComponent from "./components/FooterComponents";
-
+import SidebarComponent from "./components/DasboardMitraComponent"; // Import SidebarComponent
 
 import HomePage from "./pages/HomePage";
 import KelasPage from "./pages/KelasPage";
@@ -10,23 +9,65 @@ import FaqPage from "./pages/FaqPage";
 import Contact from "./pages/Contact";
 import MitraPage from "./pages/MitraPage";
 import InformasiComponent from "./components/InformasiComponent";
-import DashboarMitra from "./pages/Mitra/DashboarMitra";
+import DashboarMitra from "./pages/Mitra/DashboarMitra"
+import DataPesananPage from "./pages/Mitra/DataPesananPage";
+import RiwayatPage from "./pages/Mitra/RiwayatPage";
+import JenisLayananPage from "./pages/Mitra/JenisLayananPage";
 
 
 function App() {
-  return <div>
-    <NavbarComponent/>
-    <Routes>
-      <Route path="/" Component={HomePage} />
-      <Route path="/kelas" Component={KelasPage} />
-      <Route path="/faq" Component={FaqPage} />
-      <Route path="/kontak" Component={Contact} />
-      <Route path="/mitra" Component={MitraPage} />
-      <Route path="/informasi" Component={InformasiComponent} />
-      <Route path="/dashboard" Component={DashboarMitra} />
-    </Routes>
-    <FooterComponent/>
-  </div>
+  return (
+    <div>
+      <NavbarComponent />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/kelas" element={<KelasPage />} />
+        <Route path="/faq" element={<FaqPage />} />
+        <Route path="/kontak" element={<Contact />} />
+        <Route path="/mitra" element={<MitraPage />} />
+        <Route path="/informasi" element={<InformasiComponent />} />
+        
+        {/* SidebarComponent ditampilkan di halaman berikut */}
+        <Route
+          path="/mitra/dashboard"
+          element={
+            <>
+              <SidebarComponent />
+              <DashboarMitra />
+            </>
+          }
+        />
+        <Route
+          path="/mitra/datapesanan"
+          element={
+            <>
+              <SidebarComponent />
+              <DataPesananPage />
+            </>
+          }
+        />
+        <Route
+          path="/mitra/jenislayanan"
+          element={
+            <>
+              <SidebarComponent />
+              <JenisLayananPage />
+            </>
+          }
+        />
+        <Route
+          path="/mitra/riwayat"
+          element={
+            <>
+              <SidebarComponent />
+              <RiwayatPage />
+            </>
+          }
+        />
+      </Routes>
+      <FooterComponent />
+    </div>
+  );
 }
 
-export default App
+export default App;

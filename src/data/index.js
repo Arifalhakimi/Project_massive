@@ -12,6 +12,9 @@ import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
 import People3 from "../assets/img/testimonial/people-3.jpg";
 
+import { AiOutlineHome, AiOutlineUser, AiOutlineSetting } from 'react-icons/ai';
+
+
 export const navLinks = [
   {
     id: 1,
@@ -40,6 +43,33 @@ export const navLinks = [
   },
 ];
 
+export const sideBarlink = [
+  {
+    id: 1,
+    path: "/mitra/dashboard",
+    text: "Dasboard",
+    icon: AiOutlineHome
+  },
+  {
+    id: 2,
+    path: "/mitra/datapesanan",
+    text: "Data Pesanan",
+    icon: AiOutlineHome
+  },
+  {
+    id: 3,
+    path: "/mitra/jenislayanan",
+    text: "Jenis Layanan",
+    icon: AiOutlineUser,
+  },
+  {
+    id: 4,
+    path: "/mitra/riwayat",
+    text: "Riwayat Pesanan",
+    icon: AiOutlineSetting,
+  },
+];
+
 export const semuaKelas = [
   {
     id: 1,
@@ -55,7 +85,7 @@ export const semuaKelas = [
     address: "Kp. Pisangan - Karangpatri . 5 KM",
     delay: "1300",
     desc: "Bengkel Mang Uloh adalah bengkel motor umum yang berada di wilayah desa Karangpatri Kecamatan Pebayuran Kabupaten Bekasi Jawa Barat. Bengkel ini sudah sangat melegenda, karena sudah ada sejak tahun 1992. Bengkel ini didirikan oleh Mang Uloh sendiri. Bengkel ini sangat banyak diminati oleh kalangan hobiis otomotif, karena para montir atau pekerja di bengkel ini memiliki skill yang di atas rata-rata, maka tak heran bengkel ini selalu ramai pengunjung.",
-    
+
   },
   {
     id: 2,

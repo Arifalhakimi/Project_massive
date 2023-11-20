@@ -1,6 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const RegistrasiFormMitra = () => {
+    const clickButton = useNavigate();
+    
     return (
         <div>
             <Container>
@@ -53,7 +56,7 @@ const RegistrasiFormMitra = () => {
                                     <textarea className="form-control" rows="5" id="comment" name="text"></textarea>
                                 </div>
                                 <div className="submitregismitra">
-                                    <button type="submit" className="btn btn-primary w-50">Submit</button>
+                                    <button type="submit" className="btn btn-danger w-50" onClick={() => clickButton("/mitra/dashboard") } >Submit</button>
                                 </div>
                             </Col>
                         </form>
