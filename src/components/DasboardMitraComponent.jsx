@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import GambarProfile from "../assets/img/logo_home.png";
+import GambarProfile from "../assets/img/kelas/kelas-1.jpg";
 import { sideBarlink } from "../data/index";
 
 const Sidebar = () => {
@@ -10,7 +10,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <div className='gambar-profile-mitra mb-2'>
                 <img src={GambarProfile} alt="" />
-                <div className='text-profile text-center'>
+                <div className='text-profile text-center mt-1'>
                     <h6>Hana Husna</h6>
                     <p>Faiz Bengkel</p>
                 </div>
@@ -23,7 +23,7 @@ const Sidebar = () => {
                             activeClassName={activeLink === Links.path ? 'active' : ''}
                             onClick={() => setActiveLink(Links.path)}
                         >
-                            <div className='d-flex'>
+                            <div className='sidebar-text d-flex ' >
                                 {Links.icon}
                                 <h6> {Links.text} </h6>
                             </div>

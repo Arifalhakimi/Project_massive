@@ -5,7 +5,7 @@ const RegistrasiFormMitra = () => {
     const clickButton = useNavigate();
     
     return (
-        <div>
+        <div className="registrasi-component">
             <Container>
                 <Row>
                     <Col>
@@ -14,15 +14,15 @@ const RegistrasiFormMitra = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <div className="form-regis-bengkel ">
-                        <form action="" className="d-flex justify-content-between">
-                            <Col lg="4">
+                    <div className="form-regis-bengkel  ">
+                        <form action="" className="d-flex justify-content-around">
+                            <Col lg="4" >
                                 <div className="mb-3 mt-3">
                                     <label className="form-label">Email:</label>
                                     <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
                                 </div>
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">namalengkap:</label>
+                                    <label className="form-label">nama lengkap:</label>
                                     <input type="namalengkap" className="form-control" id="namalengkap" placeholder="Enter nama lengkap" name="namalengkap" />
                                 </div>
                                 <div className="mb-3 mt-3">
@@ -36,14 +36,14 @@ const RegistrasiFormMitra = () => {
                             </Col>
                             <Col lg="7">
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">nama_bengkel:</label>
+                                    <label className="form-label">Nama Bengkel:</label>
                                     <input type="nama_bengkel" className="form-control" id="nama_bengkel" placeholder="Enter nama_bengkel" name="nama_bengkel" />
                                 </div>
-                                <div className="form-check mb-3 ">
-                                    <label className="form-check-label mx-5">
+                                <div className="form-check mb-3  d-flex  align-items-center">
+                                    <label className="form-check-label mx-5  d-flex justify-content-center align-items-center">
                                         <input className="form-check-input" type="checkbox" name="motor" /> motor
                                     </label>
-                                    <label className="form-check-label">
+                                    <label className="form-check-label  d-flex justify-content-center align-items-center">
                                         <input className="form-check-input" type="checkbox" name="mobil" /> mobil
                                     </label>
                                 </div>
@@ -56,7 +56,7 @@ const RegistrasiFormMitra = () => {
                                     <textarea className="form-control" rows="5" id="comment" name="text"></textarea>
                                 </div>
                                 <div className="submitregismitra">
-                                    <button type="submit" className="btn btn-danger w-50" onClick={() => clickButton("/mitra/dashboard") } >Submit</button>
+                                    <button type="submit" className="btn btn-danger w-50 rounded-5  " onClick={() => clickButton("/mitra/dashboard") } >Daftar</button>
                                 </div>
                             </Col>
                         </form>
