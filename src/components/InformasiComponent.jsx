@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
-
+import { useNavigate } from "react-router-dom";
 import TestiComponent from "./TestiComponent";
 
 import AboutImage from '../assets/img/kelas/kelas-4.jpg';
 const InformasiComponent = () => {
+    let navigate = useNavigate();
     return (
         <div className="layanan-page">
             <Container>
@@ -35,7 +36,7 @@ const InformasiComponent = () => {
                                 <h4 className="fw-bold">Deskripsi</h4>
                                 <span >Bengkel.in</span> adalah platform berbasis website yang menyediakan layanan perbaikan pada kendaraan (motor & mobil).Bengkel.in akan membantu konsumen di sekitar daerah Pebayuran Bekasi untuk mencari informasi terkait bengkel terdekat, dan dapat membantu konsumen untuk menghubungi montir secara online pada website.
                             </p>
-                            <button className="btn btn-danger">Hubungi Bengkel</button>
+                            <button className="btn btn-danger" onClick={() => navigate("/pemesanan")}>Hubungi Bengkel</button>
                         </div>
                     </Col>
                     <Col>

@@ -62,7 +62,10 @@ const DataPesananPage = () => {
                                             <td>{data.platKendaraan} </td>
                                             <td>{data.waktuPesan} </td>
                                             <td>{data.alamat} </td>
-                                            <td>{data.pesanan} </td>
+                                            <td className="btnaksi pb-1 ">
+                                                <button className="btn btn-primary mb-1 w-100">Terima</button> 
+                                                <button className="btn btn-danger w-100">Tolak</button> 
+                                            </td>
                                         </tr>
                                     );
                                     } )}

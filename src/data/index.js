@@ -1,12 +1,14 @@
-import KelasImage1 from "../assets/img/kelas/kelas-1.jpg";
-import KelasImage2 from "../assets/img/kelas/kelas-2.jpg";
-import KelasImage3 from "../assets/img/kelas/kelas-3.jpg";
-import KelasImage4 from "../assets/img/kelas/kelas-4.jpg";
-import KelasImage5 from "../assets/img/kelas/kelas-5.jpg";
-import KelasImage6 from "../assets/img/kelas/kelas-6.jpg";
-import KelasImage7 from "../assets/img/kelas/kelas-7.jpg";
-import KelasImage8 from "../assets/img/kelas/kelas-8.jpg";
-import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
+import BengkelImage1 from "../assets/img/bengkel/bengkel1.jpeg";
+import BengkelImage2 from "../assets/img/bengkel/bengkel2.jpeg";
+import BengkelImage3 from "../assets/img/bengkel/bengkel3.jpeg";
+import BengkelImage4 from "../assets/img/bengkel/bengkel4.jpeg";
+import BengkelImage5 from "../assets/img/bengkel/bengkel5.jpeg";
+import BengkelImage6 from "../assets/img/bengkel/bengkel6.jpg";
+import BengkelImage7 from "../assets/img/bengkel/bengkel7.jpg";
+import BengkelImage8 from "../assets/img/bengkel/bengkel8.jpg";
+import BengkelImage9 from "../assets/img/bengkel/bengkel9.jpg";
+
+
 
 import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
@@ -73,7 +75,7 @@ export const sideBarlink = [
 export const semuaKelas = [
   {
     id: 1,
-    image: KelasImage1,
+    image: BengkelImage1,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -89,7 +91,7 @@ export const semuaKelas = [
   },
   {
     id: 2,
-    image: KelasImage2,
+    image: BengkelImage2,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -103,7 +105,7 @@ export const semuaKelas = [
   },
   {
     id: 3,
-    image: KelasImage3,
+    image: BengkelImage3,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -117,7 +119,7 @@ export const semuaKelas = [
   },
   {
     id: 4,
-    image: KelasImage4,
+    image: BengkelImage4,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -131,7 +133,7 @@ export const semuaKelas = [
   },
   {
     id: 5,
-    image: KelasImage5,
+    image: BengkelImage5,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -145,7 +147,7 @@ export const semuaKelas = [
   },
   {
     id: 6,
-    image: KelasImage6,
+    image: BengkelImage6,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -159,7 +161,7 @@ export const semuaKelas = [
   },
   {
     id: 7,
-    image: KelasImage7,
+    image: BengkelImage7,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -173,7 +175,7 @@ export const semuaKelas = [
   },
   {
     id: 8,
-    image: KelasImage8,
+    image: BengkelImage8,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -187,7 +189,7 @@ export const semuaKelas = [
   },
   {
     id: 9,
-    image: KelasImage9,
+    image: BengkelImage9,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -302,7 +304,7 @@ export const tableDataPesanan = [
 export const kelasTerbaru = [
   {
     id: 1,
-    image: KelasImage1,
+    image: BengkelImage1,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -315,7 +317,7 @@ export const kelasTerbaru = [
   },
   {
     id: 2,
-    image: KelasImage2,
+    image: BengkelImage2,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -328,7 +330,7 @@ export const kelasTerbaru = [
   },
   {
     id: 3,
-    image: KelasImage3,
+    image: BengkelImage3,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",

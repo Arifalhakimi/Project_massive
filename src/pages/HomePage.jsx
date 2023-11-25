@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import HeroImage from "../assets/img/logo_home.png";
+import HeroImage from "../assets/img/homehero.png";
 
 
 
@@ -27,7 +27,7 @@ const HomePage = () => {
               <p className='mb-4 animate__animated animate__backInUp animate__delay-1s'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod ab fuga corrupti deserunt ipsa.</p>
               <button className='btn btn-danger btn-lg rounded-1 me-2 animate__animated animate__backInUp animate__delay-1s' onClick={() => navigate("/kelas")}>LetsGO!!!</button>
             </Col>
-            <Col lg="6">
+            <Col lg="6" >
               <img src={HeroImage} alt="hero-img" className='animate__animated animate__lightSpeedInRight' />
             </Col>
           </Row>
