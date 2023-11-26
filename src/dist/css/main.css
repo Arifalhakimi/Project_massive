@@ -570,8 +570,7 @@ header {
 /* footer start */
 .footer {
   width: 100%;
-  min-height: 60vh;
-  background-color: var(--navbar-color-text);
+  background-color: var(--navbar-color)
 }
 
 .footer h3,
@@ -742,6 +741,7 @@ header {
 .pemesanan-page {
   background-color: var(--primary-color);
 }
+
 .pemesanan-page .pemesanan {
   background-color: var(--primary-color);
   padding-left: 10%;
@@ -759,16 +759,19 @@ header {
   width: 250px;
   height: 250px;
 }
+
 .pemesanan-page .pemesanan .form-pemsanan-input {
   padding: 2rem 5rem 2rem 5rem;
   background-color: #ffffff;
 }
+
 .pemesanan-page .pemesanan .form-pemsanan-input h3 {
   font-weight: 600;
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
 }
+
 .pemesanan-page .pemesanan .form-pemsanan-input .inputan .mb-3 {
   border: 1px solid var(--navbar-color-text);
 }
