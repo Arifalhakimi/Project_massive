@@ -1,4 +1,4 @@
-import ImagePemesanan from "../assets/img/kelas/kelas-7.jpg";
+import ImagePemesanan from "../assets/img/iamgePesan.png";
 import { Container, Row, Col, Form } from "react-bootstrap";
 const PemesananPage = () => {
     return (
@@ -60,6 +60,11 @@ const PemesananPage = () => {
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="d-flex justify-content-center">
+                        <button type="submit" className="btn btn-danger rounded-5 w-25">Pesan</button>
                         </Col>
                     </Row>
                 </Form>

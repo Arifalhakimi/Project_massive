@@ -52,7 +52,12 @@ const NavbarComponent = () => {
 
                         </Nav>
                         <div className="text-center">
-                            <button className="btn btn-outline-light rounded-1" onClick={handleShow}>Join With Us</button>
+                            <button className="btn btn-danger rounded-4 mx-3" onClick={handleShow}>Masuk</button>
+                            {/* Render MyModal hanya jika showModal bernilai true */}
+                            {showModal && <MyModal show={true} handleClose={handleClose} />}
+                        </div>
+                        <div className="text-center">
+                            <button className="btn btn-danger rounded-4 " onClick={handleShow}>Daftar</button>
                             {/* Render MyModal hanya jika showModal bernilai true */}
                             {showModal && <MyModal show={true} handleClose={handleClose} />}
                         </div>

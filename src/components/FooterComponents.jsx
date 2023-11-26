@@ -6,8 +6,8 @@ const FooterComponents = () => {
             <Container>
                 <Row className='d-flex justify-content-between'>
                     <Col lg="5">
-                        <h3 className='fw-bold'>RoadRace</h3>
-                        <p className='desc'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, provident ratione nisi qui obcaecati hic tempore sint quos. Eum, amet.</p>
+                        <h3 className='fw-bold'>Bengkel.in</h3>
+                        <p className='desc'>Bengkel.in adalah platform berbasis website yang menyediakan layanan perbaikan pada kendaraan.</p>
                         <div className='no mb-1 mt-4'>
                             <Link className='text-decoration-none'>
                                 <i className='fa-brands fa-whatsapp'></i>
@@ -24,10 +24,10 @@ const FooterComponents = () => {
                     <Col className='d-flex flex-column col-lg-2 mt-lg-0 mt-5'>
                         <h5 className='fw-bold'>Menu</h5>
                         <Link to="" >Home</Link>
-                        <Link to="kelas" >Kelas</Link>
+                        <Link to="kelas" >Layanan</Link>
                         <Link to="testimonial" >Testimonial</Link>
-                        <Link to="faq" >Faq</Link>
-                        <Link to="syaratketen" >Syarat dan Ketentuan</Link>
+                        <Link to="faq" >Bantuan</Link>
+                        <Link to="syaratketen" >Kontak</Link>
                     </Col>
                     <Col lg="4" className='mt-lg-0 mt-5'>
                         <h5 className='fw-bold mb-3'>Info menarik lainya</h5>

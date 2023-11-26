@@ -21,7 +21,7 @@ export const navLinks = [
   {
     id: 1,
     path: "",
-    text: "Home",
+    text: "Beranda",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const navLinks = [
   {
     id: 4,
     path: "faq",
-    text: "FAQ",
+    text: "Bantuan",
   },
   {
     id: 5,
@@ -308,12 +308,16 @@ export const kelasTerbaru = [
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
+    star5: "fa-solid fa-star",
+    star4: "fa-solid fa-star-half-stroke",
     title: "Tambal Ban",
+    nama: "Faiz Bengkel",
+    alamat: "KarangPatri-Pembayuran . 5KM",
+    iconAlamat:"fas fa-map-marker",
     desc: "Perbaiki motor anda Segera!!!",
     buy: "Mulai",
     delay: "",
+    rating: "4.7",
   },
   {
     id: 2,
@@ -324,9 +328,13 @@ export const kelasTerbaru = [
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star",
     title: "Ganti Oli",
+    nama: "Ajizi Bengkel",
+    alamat: "KarangPatri-Pembayuran . 5.8KM",
+    iconAlamat:"fas fa-map-marker",
     desc: "Perbaiki mobil anda",
     buy: "Mulai",
     delay: "200",
+    rating: "4.7",
   },
   {
     id: 3,
@@ -337,9 +345,13 @@ export const kelasTerbaru = [
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star",
     title: "Servis Ringan",
+    nama: "Jaya Bengkel",
+    alamat: "KarangPatri-Pembayuran . 10KM",
+    iconAlamat:"fas fa-map-marker",
     desc: "Perbaiki mobil anda",
     buy: "Mulai",
     delay: "200",
+    rating: "4.7",
   },
 ];
 

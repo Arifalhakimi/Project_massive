@@ -23,8 +23,7 @@ const HomePage = () => {
         <Container>
           <Row className='header-box d-flex align-items-center pt-lg-5'>
             <Col lg="6">
-              <h1 className='mb-4 animate__animated animate__fadeInUp animate__delay-1s' >Cari <br /> <span> Mekanik dengan mudah</span> <br /></h1>
-              <p className='mb-4 animate__animated animate__backInUp animate__delay-1s'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod ab fuga corrupti deserunt ipsa.</p>
+              <h1 className='mb-4 animate__animated animate__fadeInUp animate__delay-1s mt-4' >Servis kendaraanmu dimana pun dan kapan pun dengan <span>Bengkel.in! </span> </h1>
               <button className='btn btn-danger btn-lg rounded-1 me-2 animate__animated animate__backInUp animate__delay-1s' onClick={() => navigate("/kelas")}>LetsGO!!!</button>
             </Col>
             <Col lg="6" >
@@ -37,25 +36,22 @@ const HomePage = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className='text-center fw-bold'>Service</h1>
+              <h1 className='text-center fw-bold'>Layanan</h1>
               <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quaerat.</p>
             </Col>
           </Row>
           <Row>
             {kelasTerbaru.map((kelas) => {
               return <Col key={kelas.id} className='shadow rounded-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={kelas.delay} >
-                <img src={kelas.image} alt="unsplash.com" className='w-100 mb-5 rounded-top' />
-                <div className='start mb-2 px-3'>
-                  <i className={kelas.star1}></i>
-                  <i className={kelas.star2}></i>
-                  <i className={kelas.star3}></i>
-                  <i className={kelas.star4}></i>
-                  <i className={kelas.star5}></i>
+                <img src={kelas.image} alt="unsplash.com" className='w-100 mb-2 rounded-top' />
+                <div className='alamatservice d-flex '>
+                  <i className={kelas.iconAlamat}></i>
+                  <h5 className=''> {kelas.alamat} </h5>
                 </div>
-                <h5 className='mb-2 px-3 d-flex justify-content-center'> {kelas.title} </h5>
-                <p className='mb-2 text-primary fw-bold d-flex justify-content-center '> {kelas.desc} </p>
-                <div className='ket d-flex justify-content-end align-items-center px-3 pb-3'>
-                  <button className='btn btn-danger rounded-1 ' > {kelas.buy} </button>
+                <h6 className=' fw-bold  '> {kelas.nama} </h6>
+                <div className='start mb-2 '>
+                  <i className={kelas.star5}></i>
+                  <p>{ kelas.rating}</p>
                 </div>
               </Col>
             })}
@@ -69,10 +65,10 @@ const HomePage = () => {
         </Container>
       </div>
       <div className='about'>
-        <AboutComponent/>
+        <AboutComponent />
       </div>
       <div>
-        <TestiComponent/>
+        <TestiComponent />
       </div>
       {/* faq start */}
       <FaqComponent />

@@ -14,7 +14,7 @@ const AboutComponent = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className="fw-bold text-center mb-2">About</h1>
+                        <h1 className="fw-bold text-center mb-2">Tentang Kami</h1>
                         <p className="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, minima!</p>
                     </Col>
                 </Row>

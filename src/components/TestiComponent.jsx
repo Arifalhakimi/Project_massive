@@ -14,7 +14,7 @@ const TestiComponent = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className='text-center fw-blod my-5'>Testimonial</h1>
+                        <h1 className='text-center fw-blod my-5'>Testimoni</h1>
                     </Col>
                 </Row>
                 <Row>
