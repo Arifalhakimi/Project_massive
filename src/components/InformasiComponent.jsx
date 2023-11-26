@@ -2,7 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import TestiComponent from "./TestiComponent";
 
-import AboutImage from '../assets/img/kelas/kelas-4.jpg';
+import AboutImage from '../assets/img/bengkel/bengkel1.jpeg';
+import AboutImage2 from '../assets/img/bengkel/bengkel2.jpeg';
+import AboutImage3 from '../assets/img/bengkel/bengkel3.jpeg';
 const InformasiComponent = () => {
     let navigate = useNavigate();
     return (
@@ -21,28 +23,31 @@ const InformasiComponent = () => {
                     <Col lg={8}>
                         <div className="content-text">
                             <h3 className="fw-bold">Bengkel Mang Uloh</h3>
-                            <Row className="d-flex">
+                            <Row className="header d-flex">
                                 <Col lg="2">
-                                    <button className="btn btn-light">5km</button>
+                                    <button className="btn btn-outline-dark"> <i className="fas fa-map-marker"></i> 5km</button>
                                 </Col>
-                                <Col lg="10">
-                                    <h5>Karang Pati</h5>
+                                <Col lg="10" >
+                                    <h5>Karang-Parti,Pebayuran</h5>
                                 </Col>
                             </Row>
-                            <h2>bintang</h2>
+                            <div className="start d-flex">
+                                <i className="fa-solid fa-star"></i>
+                                <p>4.7</p>
+                            </div>
                         </div>
                         <div>
                             <p className="" data-aos="fade-up" data-aos-duration="1000" >
                                 <h4 className="fw-bold">Deskripsi</h4>
-                                <span >Bengkel.in</span> adalah platform berbasis website yang menyediakan layanan perbaikan pada kendaraan (motor & mobil).Bengkel.in akan membantu konsumen di sekitar daerah Pebayuran Bekasi untuk mencari informasi terkait bengkel terdekat, dan dapat membantu konsumen untuk menghubungi montir secara online pada website.
+                                Bengkel Mang Uloh adalah bengkel motor umum yang berada di wilayah desa Karangpatri Kecamatan Pebayuran Kabupaten Bekasi Jawa Barat. Bengkel ini sudah sangat melegenda, karena sudah ada sejak tahun 1992. Bengkel ini didirikan oleh Mang Uloh sendiri. Bengkel ini sangat banyak diminati oleh kalangan hobiis otomotif, karena para montir atau pekerja di bengkel ini memiliki skill yang di atas rata-rata, maka tak heran bengkel ini selalu ramai pengunjung.
                             </p>
-                            <button className="btn btn-danger" onClick={() => navigate("/pemesanan")}>Hubungi Bengkel</button>
+                            <button className="btn btn-danger rounded-4" onClick={() => navigate("/pemesanan")}>Hubungi Bengkel</button>
                         </div>
                     </Col>
                     <Col>
                         <div className="gambar-cadangan mt-3 mb-3">
-                            <img src={AboutImage} alt="" />
-                            <img src={AboutImage} alt="" />
+                            <img src={AboutImage2} alt="" />
+                            <img src={AboutImage3} alt="" />
                         </div>
                     </Col>
                 </Row>
@@ -51,7 +56,7 @@ const InformasiComponent = () => {
                         <h2 className="fw-bold">Info Layanan</h2>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="body-infolayanan">
                     <Col lg="4">
                         <h4>Layanan Servis:</h4>
                         <div className="d-flex">
@@ -95,7 +100,7 @@ const InformasiComponent = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <TestiComponent/>
+                    <TestiComponent />
                 </Row>
             </Container>
         </div>

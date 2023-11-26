@@ -1,6 +1,6 @@
 // import DasboardMitraComponent from "../components/DasboardMitraComponent"
 import { Container, Row, Col } from "react-bootstrap";
-import IconDashboard from "../../assets/img/kelas/kelas-8.jpg";
+import IconDashboard from "../../assets/img/logoBengkelin.png";
 const DashboarMitra = () => {
     return (
         <>

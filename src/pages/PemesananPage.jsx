@@ -14,13 +14,13 @@ const PemesananPage = () => {
                             <h3>Informasi Pelanggan</h3>
                         <Col className="inputan">
                             <Form.Group className="mb-3" controlId="formBasicNama">
-                                <Form.Control type="text" placeholder="Enter Nama" />
-                            </Form.Group>
+                                <Form.Control type="text" placeholder="Masukan Nama" />
+                            </Form.Group> 
                             <Form.Group className="mb-3" controlId="formBasicTelepon">
-                                <Form.Control type="text" placeholder="Enter Phone" />
+                                <Form.Control type="text" placeholder="Masukan No Telephone" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control type="email" placeholder="Masukan email" />
                             </Form.Group>
                         </Col>
                     </Row>
@@ -28,17 +28,17 @@ const PemesananPage = () => {
                             <h3 >Informasi Kendaraan</h3>
                         <Col className="inputan">
                             <Form.Group className="mb-3" controlId="formBasicMerek">
-                                <Form.Control type="text" placeholder="Enter Merek Kendaraan" />
+                                <Form.Control type="text" placeholder="Masukan Merek Kendaraan" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicPlat">
-                                <Form.Control type="text" placeholder="Enter Plat Kendaraan" />
+                                <Form.Control type="text" placeholder="Masukan Plat Kendaraan" />
                             </Form.Group>
                             <Form.Group className="mb-3 w-50" controlId="formBasicJenis">
                                 <Form.Select aria-label="Default select example">
-                                    <option>Open this select menu</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option>Kendala</option>
+                                    <option value="1">Ganti Oli</option>
+                                    <option value="2">Servis Ringan</option>
+                                    <option value="3">Tambal Ban</option>
                                 </Form.Select>
                             </Form.Group>
                         </Col>
@@ -50,7 +50,7 @@ const PemesananPage = () => {
                                 <Form.Control type="date" placeholder=" YYYY-MM-DD" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicJam">
-                                <Form.Control type="date" placeholder=" HH:MM AM/PM" />
+                                <Form.Control type="time"  />
                             </Form.Group>
                         </Col>
                     </Row>

@@ -24,7 +24,7 @@ const HomePage = () => {
           <Row className='header-box d-flex align-items-center pt-lg-5'>
             <Col lg="6">
               <h1 className='mb-4 animate__animated animate__fadeInUp animate__delay-1s mt-4' >Servis kendaraanmu dimana pun dan kapan pun dengan <span>Bengkel.in! </span> </h1>
-              <button className='btn btn-danger btn-lg rounded-1 me-2 animate__animated animate__backInUp animate__delay-1s' onClick={() => navigate("/kelas")}>LetsGO!!!</button>
+              <button className='btn btn-outline-light btn-lg rounded-5 me-2 animate__animated animate__backInUp animate__delay-1s' onClick={() => navigate("/kelas")}>LetsGO!!!</button>
             </Col>
             <Col lg="6" >
               <img src={HeroImage} alt="hero-img" className='animate__animated animate__lightSpeedInRight' />
@@ -44,7 +44,7 @@ const HomePage = () => {
             {kelasTerbaru.map((kelas) => {
               return <Col key={kelas.id} className='shadow rounded-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={kelas.delay} >
                 <img src={kelas.image} alt="unsplash.com" className='w-100 mb-2 rounded-top' />
-                <div className='alamatservice d-flex '>
+                <div className='alamatservice d-flex mt-2'>
                   <i className={kelas.iconAlamat}></i>
                   <h5 className=''> {kelas.alamat} </h5>
                 </div>

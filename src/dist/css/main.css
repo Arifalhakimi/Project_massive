@@ -61,8 +61,8 @@
 /* Home Page start */
 header {
   background: #c6ffdd;
-  background: -webkit-linear-gradient(to bottom, #be181e, #f6f8fd);
-  background: linear-gradient(to bottom, #be181e 500px, #f6f8fd);
+  background: -webkit-linear-gradient(to bottom, #be181e 60%, #f6f8fd);
+  background: linear-gradient(to bottom, #be181e 99%, #f6f8fd);
 
   /* background: #c6ffdd;
     background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd);
@@ -142,12 +142,12 @@ header {
 /* home page kelas */
 .homepage .service {
   background-color: var(--primary-color);
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .homepage .service .row:nth-child(1) {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .homepage .service .row:nth-child(1) h1,
@@ -164,7 +164,7 @@ header {
 
 .homepage .service .row:nth-child(2) img {
   width: 100%;
-  height: 250px;
+  height: 180px;
 }
 
 .homepage .service .row:nth-child(2) .col {
@@ -172,8 +172,43 @@ header {
   padding: 0;
 }
 
+.homepage .service .row:nth-child(2) .col .alamatservice {
+  margin-left: 30px;
+}
+
+.homepage .service .row:nth-child(2) .col .alamatservice i {
+  color: var(--secondary-color);
+  margin-right: 10px;
+}
+
+.homepage .service .row:nth-child(2) .col .alamatservice h5 {
+  font-size: 9px;
+  color: var(--color-text);
+  margin-top: 3px;
+}
+
+.homepage .service .row:nth-child(2) .col h6 {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 23px;
+  color: var(--color-text);
+}
+
 .homepage .service .row:nth-child(2) .start {
+  display: flex;
+  margin-left: 30px;
+}
+
+.homepage .service .row:nth-child(2) .start i {
   color: gold;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+.homepage .service .row:nth-child(2) .start p {
+  color: var(--color-text);
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .homepage .service .row:nth-child(2) h5 {
@@ -183,7 +218,7 @@ header {
 }
 
 .homepage .service .row:nth-child(3) {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 /* home page kelas */
@@ -294,11 +329,13 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
   padding-inline: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .service-page .service .row:nth-child(2) img {
   width: 100%;
-  height: 250px;
+  height: 180px;
 }
 
 .service-page .service .row:nth-child(2) .col {
@@ -306,8 +343,63 @@ header {
   padding: 0;
 }
 
-.service-page .service .row:nth-child(2) .start {
+.service-page .service .row:nth-child(2) .col .addres {
+  margin-left: 30px;
+}
+
+.service-page .service .row:nth-child(2) .col .addres .jalan i {
+  color: var(--secondary-color);
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.service-page .service .row:nth-child(2) .col .addres .jalan p {
+  font-size: 11px;
+  color: var(--color-text);
+  margin-top: 4px;
+}
+
+.service-page .service .row:nth-child(2) .col .addres .open {
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.service-page .service .row:nth-child(2) .col .addres .open i {
+  margin-top: 5px;
+  font-size: 8px;
+  margin-left: 3px;
+  margin-right: 30px;
+  color: green;
+}
+
+.service-page .service .row:nth-child(2) .col .title h5 {
+  margin-left: 30px;
+  font-weight: 750;
+  font-size: 25px;
+}
+
+.service-page .service .row:nth-child(2) .ket {
+  margin-left: 30px;
+}
+
+.service-page .service .row:nth-child(2) .ket .start {
+  margin-top: 10px;
+}
+
+.service-page .service .row:nth-child(2) .ket .start i {
   color: gold;
+  margin-top: 1px;
+  margin-right: 4px;
+}
+
+.service-page .service .row:nth-child(2) .ket .start p {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.service-page .service .row:nth-child(2) .ket .button-detail button {
+  margin-right: 30px;
 }
 
 .service-page .service .row:nth-child(2) h5 {
@@ -329,8 +421,8 @@ header {
 /* about start */
 .about-component {
   background-color: var(--primary-color);
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .about-component:nth-child(1) h1 {
@@ -345,6 +437,7 @@ header {
 
 .about-component .about-text {
   margin-left: 30px;
+  margin-top: 10px;
 }
 
 .about-component .about-text span {
@@ -495,8 +588,34 @@ header {
   margin-right: 10px;
 }
 
-.layanan-page .heading-info-layanan {
-  margin: 1px 0 1px 0 solid var(--secondary-color);
+.layanan-page .content .content-text .header {
+  margin-bottom: 7px;
+}
+
+.layanan-page .content .content-text h5 {
+  margin-top: 5px;
+  color: var(--color-text);
+  font-size: 24px;
+}
+
+.layanan-page .content .content-text .start i {
+  color: gold;
+  margin-right: 7px;
+  margin-top: 2px;
+}
+
+.layanan-page .content .content-text .start p {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.layanan-page .content {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.layanan-page .body-infolayanan {
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 /* informasi layanan end */
@@ -509,14 +628,21 @@ header {
   background-color: var(--primary-color);
 }
 
+.Contact-page .Contact h1 {
+  color: var(--color-text);
+}
+
 .Contact-page .Contact p {
   line-height: 2;
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .Contact-page .Contact img {
   margin-top: 18px;
   width: 100%;
-  height: 345px;
+  height: 355px;
 }
 
 /* syarat dan ketentuan end */
@@ -734,6 +860,36 @@ header {
 }
 
 /* Data pesanan end */
+/* Jenis layanan start */
+.jenis-layanan .content button {
+  margin-top: 7px;
+}
+
+.jenis-layanan .content-body {
+  margin-left: 230px;
+}
+
+/* Jenis layanan end */
+.riwayat-pesanan .content-body {
+  margin-left: 230px;
+}
+
+.riwayat-pesanan .content .border img {
+  width: 100%;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.riwayat-pesanan .content .border i {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  color: #171e2b;
+}
+
+/* riwayat pesanan start */
+
+/* riwayat pesanan end */
 
 /* dashboard end */
 
@@ -755,7 +911,6 @@ header {
 }
 
 .pemesanan-page .pemesanan .form-pemesanan img {
-  border-radius: 100%;
   width: 250px;
   height: 250px;
 }

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import AboutImage from '../assets/img/kelas/kelas-4.jpg'; // Ganti dengan path yang sesuai
-
+import LogoBengkel from "../assets/img/logoBengkelin.png";
 const AboutComponent = () => {
     const [showFullText, setShowFullText] = useState(false);
 
@@ -20,7 +19,7 @@ const AboutComponent = () => {
                 </Row>
                 <Row className="my-4">
                     <Col lg={4} className="shadow">
-                        <img src={AboutImage} alt="About" className="img-fluid" data-aos="fade-up" data-aos-duration="1000" />
+                        <img src={LogoBengkel} alt="About" className="img-fluid" data-aos="fade-up" data-aos-duration="1000" />
                     </Col>
                     <Col lg={8}>
                         <p className={`about-text ${showFullText ? 'full-text' : ''}`} data-aos="fade-up" data-aos-duration="1000" >

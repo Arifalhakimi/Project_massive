@@ -11,7 +11,7 @@ const KelasPage = () => {
   return (
     <div className="service-page">
       <div className="service min-vh-100">
-        <Container>
+        <Container fluid>
           <Row className="headingBengkel ">
             <Col lg="6" className="">
               <div className="text-bengkel mt-3 ">
@@ -32,26 +32,34 @@ const KelasPage = () => {
               </div>
 
             </Col>
-            
+
           </Row>
           <Row>
             {semuaKelas.map((kelas) => {
               return <Col key={kelas.id} className='shadow rounded-2 mt-5' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={kelas.delay}>
-                <img src={kelas.image} alt="unsplash.com" className='w-100 mb-5 rounded-top' />
-                <div className="addres d-flex justify-content-center mb-2">
-                  <i className={kelas.star1}> {kelas.address} </i>
+                <img src={kelas.image} alt="unsplash.com" className='w-100 mb-3 rounded-top' />
+                <div className="addres d-flex justtify-content-center ">
+                  <div className="jalan col-lg-10 d-flex">
+                    <i className={kelas.iconAlamat}>  </i>
+                    <p>{kelas.address}</p>
+                  </div>
+                  <div className="open col-lg-2 d-flex justify-content-end">
+                    <p>buka</p>
+                    <i className="fas fa-circle"></i>
+                  </div>
                   {/* <h6 className="align-items-center"></h6> */}
                 </div>
-                <h5 className='mb-5 px-3'> {kelas.title} </h5>
-                <div className='ket d-flex justify-content-between align-items-center px-3 pb-3'>
-                  <div className='start mb-2 px-3'>
+                <div className="title">
+                  <h5 className=''> {kelas.title} </h5>
+                </div>
+                <div className='ket d-flex justify-content-between align-items-center pb-3'>
+                  <div className='start d-flex col-lg-6'>
                     <i className={kelas.star1}></i>
-                    <i className={kelas.star2}></i>
-                    <i className={kelas.star3}></i>
-                    <i className={kelas.star4}></i>
-                    <i className={kelas.star5}></i>
+                    <p>{ kelas.rating}</p>
                   </div>
-                  <button className='btn btn-danger rounded-1' onClick={handleClick} > {kelas.buy} </button>
+                  <div className="button-detail col-lg-6 d-flex justify-content-end">
+                    <button className='btn btn-danger rounded-4' onClick={handleClick} > {kelas.buy} </button>
+                  </div>
                 </div>
               </Col>
             })}

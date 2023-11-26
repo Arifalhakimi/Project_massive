@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import GambarProfile from "../assets/img/kelas/kelas-1.jpg";
 import { sideBarlink } from "../data/index";
+import Hana from "../assets/img/testimonial/hana.png";
 
 const Sidebar = () => {
     const [activeLink, setActiveLink] = useState(null);
@@ -9,7 +9,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className='gambar-profile-mitra mb-2'>
-                <img src={GambarProfile} alt="" />
+                <img src={Hana} alt="" />
                 <div className='text-profile text-center mt-1'>
                     <h6>Hana Husna</h6>
                     <p>Faiz Bengkel</p>
