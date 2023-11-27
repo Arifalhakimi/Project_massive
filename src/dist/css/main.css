@@ -917,10 +917,11 @@ header {
 
 /* pemesanan-component end */
 /* profile start */
-.profile-page{
+.profile-page {
   padding-bottom: 40rem;
   background-color: var(--primary-color);
 }
+
 .profile-page .bgimage {
   background-image: url("../../assets/img/imageprofile.png");
   width: 100%;
@@ -928,7 +929,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+
 }
 
 .profile-page .imageuser img {
@@ -937,18 +938,22 @@ header {
   border-radius: 100%;
   margin-top: 250px;
 }
-.profile-page .bgimage .isi-profile{
+
+.profile-page .bgimage .isi-profile {
   padding-top: 30px;
 }
-.profile-page .bgimage .isi-profile .button-profile button{
+
+.profile-page .bgimage .isi-profile .button-profile button {
   margin-top: 10px;
   margin-left: 10px;
 }
-.profile-page .bgimage .isi-profile .log{
+
+.profile-page .bgimage .isi-profile .log {
   margin-left: 90px;
   padding-top: 30px;
 }
-.profile-page .bgimage .isi-profile .log .logout-profile{
+
+.profile-page .bgimage .isi-profile .log .logout-profile {
   margin-top: 10px;
   border-top: 1px solid var(--navbar-color);
   border-bottom: 1px solid var(--navbar-color);
@@ -957,17 +962,19 @@ header {
   margin-right: 100px;
 
 }
-.profile-page .bgimage .isi-profile .log .logout-profile i{
+
+.profile-page .bgimage .isi-profile .log .logout-profile i {
   margin-top: 15px;
   margin-right: 15px;
   font-size: 24px;
 }
-.profile-page .bgimage .isi-profile .log .logout-profile p{
+
+.profile-page .bgimage .isi-profile .log .logout-profile p {
   align-items: center;
   margin-top: 12px;
   font-size: 20px;
   margin-right: 90px;
-  
+
 }
 
 /* profile end */
