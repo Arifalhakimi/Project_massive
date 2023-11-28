@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { navLinks } from "./../data/index";
-import { NavLink ,useNavigate} from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+
 
 
 const NavbarComponent = () => {
@@ -24,7 +25,6 @@ const NavbarComponent = () => {
     }, []);
 
     let Navigate = useNavigate();
-
     return (
         <div>
             <Navbar expand="lg" className={changeColor ? "color-active" : ""} >
@@ -43,7 +43,6 @@ const NavbarComponent = () => {
                                 );
                             }
                             )}
-
                         </Nav>
                         <div className="text-center">
                             <button className="btn btn-danger rounded-4 mx-3" onClick={() => Navigate('/login')}>Masuk</button>
