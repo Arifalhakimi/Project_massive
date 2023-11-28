@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { navLinks } from "./../data/index";
-import { NavLink } from "react-router-dom";
-
-import MyModal from "./MyModal";
-
+import { NavLink ,useNavigate} from "react-router-dom";
 
 
 const NavbarComponent = () => {
@@ -26,10 +23,7 @@ const NavbarComponent = () => {
         };
     }, []);
 
-    const [showModal, setShowModal] = useState(false);
-    const handleShow = () => setShowModal(true);
-    const handleClose = () => setShowModal(false);
-
+    let Navigate = useNavigate();
 
     return (
         <div>
@@ -52,14 +46,10 @@ const NavbarComponent = () => {
 
                         </Nav>
                         <div className="text-center">
-                            <button className="btn btn-danger rounded-4 mx-3" onClick={handleShow}>Masuk</button>
-                            {/* Render MyModal hanya jika showModal bernilai true */}
-                            {showModal && <MyModal show={true} handleClose={handleClose} />}
+                            <button className="btn btn-danger rounded-4 mx-3" onClick={() => Navigate('/login')}>Masuk</button>
                         </div>
                         <div className="text-center">
-                            <button className="btn btn-danger rounded-4 " onClick={handleShow}>Daftar</button>
-                            {/* Render MyModal hanya jika showModal bernilai true */}
-                            {showModal && <MyModal show={true} handleClose={handleClose} />}
+                            <button className="btn btn-danger rounded-4 " onClick={() => Navigate('/register')}>Daftar</button>
                         </div>
                     </Navbar.Collapse>
                 </Container>

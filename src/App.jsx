@@ -15,6 +15,8 @@ import RiwayatPage from "./pages/Mitra/RiwayatPage";
 import JenisLayananPage from "./pages/Mitra/JenisLayananPage";
 import PemesananPage from "./pages/PemesananPage";
 import ProfileUserPage from "./pages/ProfileUserPage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
         <Route path="/informasi" element={<InformasiComponent />} />
         <Route path="/pemesanan" element={<PemesananPage />} />
         <Route path="/profile" element={<ProfileUserPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
         
         {/* SidebarComponent ditampilkan di halaman berikut */}
         <Route

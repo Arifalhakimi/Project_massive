@@ -23,6 +23,7 @@ const KelasPage = () => {
                 <form action="">
                   <div className="mb-3 mt-3">
                     <input type="text" className="form-control animate__animated animate__fadeInUp animate__delay-1s w-100 jus" id="seacrh" placeholder="Cari" name="seacrh" />
+                    
                   </div>
                 </form>
                 <div className="button-bengkel animate__animated animate__fadeInUp animate__delay-1s">
@@ -40,7 +41,7 @@ const KelasPage = () => {
                 <img src={kelas.image} alt="unsplash.com" className='w-100 mb-3 rounded-top' />
                 <div className="addres d-flex justtify-content-center ">
                   <div className="jalan col-lg-10 d-flex">
-                    <i className={kelas.iconAlamat}>  </i>
+                    <i className={kelas.iconAlamat}></i>
                     <p>{kelas.address}</p>
                   </div>
                   <div className="open col-lg-2 d-flex justify-content-end">
