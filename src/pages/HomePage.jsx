@@ -36,8 +36,8 @@ const HomePage = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className='text-center fw-bold'>Layanan</h1>
-              <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quaerat.</p>
+              <h1 className='text-center fw-bold'>Bengkel Terdekat</h1>
+              <p className='text-center'>Kami ada banyak layanan yang bisa kamu terima</p>
             </Col>
           </Row>
           <Row>
@@ -45,12 +45,12 @@ const HomePage = () => {
               return <Col key={kelas.id} className='shadow rounded-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={kelas.delay} >
                 <img src={kelas.image} alt="unsplash.com" className='w-100 mb-2 rounded-top' />
                 <div className='alamatservice d-flex mt-2'>
-                  <i className={kelas.iconAlamat}></i>
+                  <i className="fas fa-map-marker"></i>
                   <h5 className=''> {kelas.alamat} </h5>
                 </div>
                 <h6 className=' fw-bold  '> {kelas.nama} </h6>
                 <div className='start mb-2 '>
-                  <i className={kelas.star5}></i>
+                  <i className="fa-solid fa-star"></i>
                   <p>{ kelas.rating}</p>
                 </div>
               </Col>

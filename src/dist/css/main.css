@@ -56,6 +56,27 @@
   color: var(--primary-color);
 }
 
+.icon-mitra {
+  margin-left: 630px;
+}
+
+.icon-mitra .icon-navbar-mitra {
+  color: var(--primary-color);
+  align-items: center;
+}
+
+.icon-mitra .icon-navbar-mitra i {
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+.icon-mitra .icon-navbar-mitra p {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
 /* Navbar end */
 
 /* Home Page start */
@@ -240,6 +261,7 @@ header {
 .testimonial .swiper {
   width: 100%;
   height: 100%;
+  padding-bottom: 20px;
 }
 
 .testimonial .swiper-slide {
@@ -247,6 +269,8 @@ header {
   font-size: 18px;
   background: #fff;
   padding: 20px;
+  height: 30rem;
+  border-radius: 20px;
 
   /* Center slide text vertically */
   display: flex;
@@ -409,9 +433,37 @@ header {
   line-height: 1.5;
 }
 
-.service-page .headingBengkel {
-  border-bottom: 1px solid var(--secondary-color);
+@keyframes drawLine {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
+
+.service-page .headingBengkel {
+  position: relative;
+  border-bottom: 1px solid var(--secondary-color);
+  overflow: hidden;
+  /* Mencegah garis terlihat sejak awal */
+}
+
+.service-page .headingBengkel::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--secondary-color);
+  animation: drawLine 3s ease forwards;
+  /* Menggunakan animasi dengan keyframes */
+}
+
+
+
 
 /* kelas end */
 
@@ -457,6 +509,7 @@ header {
   height: 400px;
   margin-top: 90px;
   border-radius: 20px;
+  filter: brightness(40%);
 }
 
 .mitra-page .mitra {
@@ -681,7 +734,11 @@ header {
 /* footer start */
 .footer {
   width: 100%;
-  background-color: var(--navbar-color)
+  background-color: var(--navbar-color);
+  z-index: 9998;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer h3,
@@ -767,24 +824,17 @@ header {
   width: 230px;
   position: fixed;
   background-color: var(--navbar-color);
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 120px;
+  z-index: 9998;
 }
 
-.sidebar-link {
-  color: white;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 14px;
-}
+
 
 .sidebar .gambar-profile-mitra img {
   width: 100px;
   height: 100px;
+  margin-left: 67px;
   border-radius: 100px;
 }
 
@@ -800,18 +850,62 @@ header {
   width: 100%;
   border-bottom: 1px solid var(--primary-color);
   border-top: 1px solid var(--primary-color);
-  text-decoration: none;
 }
 
-.sidebar .sidebar-content-link .sidebar-text {
+.sidebar .sidebar-content-link .sidebar-link {
+  align-items: center;
+  font-size: 14px;
+}
+
+.sidebar .sidebar-content-link .sidebar-link .sidebar-text {
   color: var(--primary-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar .sidebar-content-link .sidebar-link .sidebar-text i {
+  margin-right: 15px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.sidebar .sidebar-content-link .sidebar-link .sidebar-text p {
   text-decoration: none;
+  margin: 0;
+  margin-top: 3px;
+  font-weight: 600;
+}
+
+.sidebar .sidebar-logout {
+  color: var(--primary-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebar .sidebar-logout i {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 30px;
   margin-top: 10px;
 }
+
+.sidebar .sidebar-logout p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+
 
 /* sidebar end */
 
 /* dashboard mitra start */
+.Dashboard-mitra-content,
+.data-pesanan,
+.riwayat-pesanan,
+.jenis-layanan {
+  padding-bottom: 100px;
+}
+
 .Dashboard-mitra-content .content,
 .data-pesanan .content,
 .riwayat-pesanan .content,

@@ -12,23 +12,25 @@ const CarouselComponent = () => {
                     <Carousel.Item interval={1000}>
                         <img src={ImageCarousel1} alt="" />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Bengkel.in sudah bekerjasama dengan lebih dari 49 bengkel di wilayah Pebayuran.</h3>
+                            <p>Mulai dari bengkel resmi hingga bengkel umum bisa Konsumen temukan di
+                                Bengkel.in dengan layanan servis yang beragam seperti servis mesin, ganti oli dan lainnya.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
                         <img src={ImageCarousel2} alt="" />
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>Montir Professional</h3>
+                            <p>Montir yang profesional yang akan membantu anda dalam memperbaiki kendaraan anda </p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={ImageCarousel3} alt="" />
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
+                            <h3>Pelayanan Terbaik</h3>
                             <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Banyak aspek yang kami perhitungkan terhadap pelayanan kami mulai dari montir,mitra DLL.
+                                Dan yang pasti pelayanan terhadap konsumen itu yang terbaik👌.
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>

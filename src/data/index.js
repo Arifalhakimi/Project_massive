@@ -8,13 +8,10 @@ import BengkelImage7 from "../assets/img/bengkel/bengkel7.jpg";
 import BengkelImage8 from "../assets/img/bengkel/bengkel8.jpg";
 import BengkelImage9 from "../assets/img/bengkel/bengkel9.jpg";
 
-
-
 import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
 import People3 from "../assets/img/testimonial/people-3.jpg";
 
-import { AiOutlineHome, AiOutlineUser, AiOutlineSetting } from 'react-icons/ai';
 
 
 export const navLinks = [
@@ -50,25 +47,25 @@ export const sideBarlink = [
     id: 1,
     path: "/mitra/dashboard",
     text: "Dasboard",
-    icon: AiOutlineHome
+    icon: "fas fa-home",
   },
   {
     id: 2,
     path: "/mitra/datapesanan",
     text: "Data Pesanan",
-    icon: AiOutlineHome
+    icon: "fas fa-shopping-cart",
   },
   {
     id: 3,
     path: "/mitra/jenislayanan",
     text: "Jenis Layanan",
-    icon: AiOutlineUser,
+    icon: "	fab fa-servicestack",
   },
   {
     id: 4,
     path: "/mitra/riwayat",
     text: "Riwayat Pesanan",
-    icon: AiOutlineSetting,
+    icon: "fas fa-history",
   },
 ];
 
@@ -85,7 +82,7 @@ export const semuaKelas = [
     title: "Faiz bengkel",
     price: "Rp. 300.000",
     buy: "Detail",
-    rating:"4.5",
+    rating:"4.9",
     address: "Kp. Pisangan - Karangpatri . 5 KM",
     delay: "1300",
     desc: "Bengkel Mang Uloh adalah bengkel motor umum yang berada di wilayah desa Karangpatri Kecamatan Pebayuran Kabupaten Bekasi Jawa Barat. Bengkel ini sudah sangat melegenda, karena sudah ada sejak tahun 1992. Bengkel ini didirikan oleh Mang Uloh sendiri. Bengkel ini sangat banyak diminati oleh kalangan hobiis otomotif, karena para montir atau pekerja di bengkel ini memiliki skill yang di atas rata-rata, maka tak heran bengkel ini selalu ramai pengunjung.",
@@ -137,7 +134,7 @@ export const semuaKelas = [
     buy: "Detail",
     rating:"4.5",
     address: "Kp. Kademangan",
-    delay: "2200",
+    delay: "300",
   },
   {
     id: 5,
@@ -153,7 +150,7 @@ export const semuaKelas = [
     price: "Rp. 300.000",
     buy: "Detail",
     address: "Kp. Kademangan",
-    delay: "300",
+    delay: "600",
   },
   {
     id: 6,
@@ -169,7 +166,7 @@ export const semuaKelas = [
     buy: "Detail",
     rating:"4.5",
     address: "Kp. Kademangan",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 7,
@@ -185,7 +182,7 @@ export const semuaKelas = [
     buy: "Detail",
     rating:"4.5",
     address: "Kp. Kademangan",
-    delay: "900",
+    delay: "300",
   },
   {
     id: 8,
@@ -201,7 +198,7 @@ export const semuaKelas = [
     buy: "Detail",
     rating:"4.5",
     address: "Kp. Kademangan",
-    delay: "1200",
+    delay: "600",
   },
   {
     id: 9,
@@ -217,7 +214,7 @@ export const semuaKelas = [
     buy: "Detail",
     rating:"4.5",
     address: "Kp. Kademangan",
-    delay: "300",
+    delay: "900",
   },
 ];
 
@@ -376,14 +373,14 @@ export const kelasTerbaru = [
 export const testimonial = [
   {
     id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Saya sangat puas dengan layanan servis online ini. Pelayanannya cepat, responsif, dan profesional. Masalah saya terselesaikan dengan baik, dan saya akan merekomendasikan kepada teman-teman saya.",
     image: People1,
     name: "People 1",
     skill: "UI UX Designer",
   },
   {
     id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Pertama kali mencoba layanan ini, dan saya sangat terkesan. Tim servis online sangat membantu dan ramah. Mereka memberikan solusi cepat untuk masalah saya. Sangat merekomendasikan!",
     image: People2,
     name: "People 2",
     skill: "Flutter Developer",
@@ -475,35 +472,35 @@ export const manfaatMitra = [
 export const dataSwiper = [
   {
     id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Saya sangat puas dengan layanan servis online ini. Pelayanannya cepat, responsif, dan profesional. Masalah saya terselesaikan dengan baik, dan saya akan merekomendasikan kepada teman-teman saya.",
     image: People1,
     name: "People 1",
     skill: "UI UX Designer",
   },
   {
     id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Pertama kali mencoba layanan ini, dan saya sangat terkesan. Tim servis online sangat membantu dan ramah. Mereka memberikan solusi cepat untuk masalah saya. Sangat merekomendasikan!",
     image: People2,
     name: "People 2",
     skill: "Flutter Developer",
   },
   {
     id: 3,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Layanan pelanggan yang luar biasa! Saya mengalami masalah teknis, dan mereka tidak hanya memperbaikinya dengan cepat tetapi juga memberikan panduan yang jelas untuk mencegah hal yang sama terjadi lagi. Terima kasih!",
     image: People3,
     name: "People 3",
     skill: "Web Developer",
   },
   {
     id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Saya telah menggunakan layanan ini beberapa kali sekarang, dan setiap kali pengalaman saya sangat positif. Pekerja mereka berpengetahuan tinggi, tanggap, dan efisien. Saya merasa sangat dihargai sebagai pelanggan.",
     image: People1,
     name: "People 4",
     skill: "UI UX Designer",
   },
   {
     id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "Sangat senang dengan layanan ini. Sistemnya mudah digunakan, dan tim dukungan pelanggan selalu siap membantu. Saya merasa aman dan nyaman menggunakan layanan ini. Terima kasih banyak!",
     image: People2,
     name: "People 5",
     skill: "Flutter Developer",
@@ -521,25 +518,25 @@ export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Apakah ini Berlangganan?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Apa itu Bengkel.in?",
+    desc: "Bengkel.in adalah platform berbasis website yang menyediakan layanan perbaikan pada kendaraan (motor & mobil). Bengkel.in akan membantu konsumen di sekitar daerah Pebayuran Bekasi untuk mencari informasi terkait bengkel terdekat, dan dapat membantu konsumen untuk menghubungi montir secara online pada website.",
   },
   {
     id: 2,
     eventKey: 1,
-    title: "Bagaimana Sistem Belajarnya?",
+    title: "Bagaimana cara mendaftar menjadi mitra?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
   {
     id: 3,
     eventKey: 2,
-    title: "Apakah Boleh di Share ke Orang Lain?",
+    title: "Bagaimana kinerja montir?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
   {
     id: 4,
     eventKey: 3,
-    title: "Apakah Ada Grup Diskusi?",
+    title: "Seberapa berguna Platform Bengkel.In?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
   {
@@ -557,13 +554,13 @@ export const faq = [
   {
     id: 7,
     eventKey: 6,
-    title: "Apakah Saya Boleh Mendownload Videonya?",
+    title: "Bagaimana Cara kerja Bengkel.in?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
   {
     id: 8,
     eventKey: 7,
-    title: "Apakah boleh ganti Kelas ketika sudah Membeli?",
+    title: "Apakah Boleh di Share ke Orang Lain?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
 ];

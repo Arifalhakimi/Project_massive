@@ -23,12 +23,12 @@ const KelasPage = () => {
                 <form action="">
                   <div className="mb-3 mt-3">
                     <input type="text" className="form-control animate__animated animate__fadeInUp animate__delay-1s w-100 jus" id="seacrh" placeholder="Cari" name="seacrh" />
-                    
+
                   </div>
                 </form>
                 <div className="button-bengkel animate__animated animate__fadeInUp animate__delay-1s">
-                  <button className="btn btn-danger mx-3">Terdekat</button>
-                  <button className="btn btn-danger">Populer</button>
+                  <button className="btn btn-danger mx-3 rounded-4">Terdekat</button>
+                  <button className="btn btn-danger rounded-4">Populer</button>
                 </div>
               </div>
 
@@ -56,7 +56,7 @@ const KelasPage = () => {
                 <div className='ket d-flex justify-content-between align-items-center pb-3'>
                   <div className='start d-flex col-lg-6'>
                     <i className={kelas.star1}></i>
-                    <p>{ kelas.rating}</p>
+                    <p>{kelas.rating}</p>
                   </div>
                   <div className="button-detail col-lg-6 d-flex justify-content-end">
                     <button className='btn btn-danger rounded-4' onClick={handleClick} > {kelas.buy} </button>

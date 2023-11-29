@@ -46,7 +46,7 @@ const TestiComponent = () => {
                         className="mySwiper"
                     >
                         {dataSwiper.map((dataTesti) => {
-                            return <SwiperSlide key={dataTesti.id} className='shadow'>
+                            return <SwiperSlide key={dataTesti.id} className=' shadow'>
                                 <p className='desc'> {dataTesti.desc} </p>
                                 <div className='people'>
                                     <img src={dataTesti.image} alt="" />

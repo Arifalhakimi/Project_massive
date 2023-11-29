@@ -34,7 +34,7 @@ function App() {
         <Route path="/profile" element={<ProfileUserPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        
+
         {/* SidebarComponent ditampilkan di halaman berikut */}
         <Route
           path="/mitra/dashboard"

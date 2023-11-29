@@ -47,7 +47,7 @@ const LoginPage = () => {
                     </Form.Text>
                 </Form.Group>
 
-                <Button variant="danger" type="submit" className="rounded-5">
+                <Button variant="danger" type="submit" className="rounded-5" onClick={() => Navigate("/")}>
                     Masuk
                 </Button>
                 <Form.Text className="text-muted d-flex justify-content-center">
