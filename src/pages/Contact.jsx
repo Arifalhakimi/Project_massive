@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import FaqComponent from "../components/FaqComponent";
-import AboutImage from '../assets/img/imageContact.png';
+import AboutImage from '../assets/img/logoBengkelin.png';
 
 
 const ContactPage = () => {
@@ -36,7 +36,7 @@ const ContactPage = () => {
                 </form>
               </div>
             </Col>
-            <Col lg="6">
+            <Col lg="6" className="d-flex justify-content-center">
               <img className="Image-contact" src={AboutImage} alt="" />
             </Col>
           </Row>

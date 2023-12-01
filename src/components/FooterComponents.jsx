@@ -11,13 +11,13 @@ const FooterComponents = () => {
                         <div className='no mb-1 mt-4'>
                             <Link className='text-decoration-none'>
                                 <i className='fa-brands fa-whatsapp'></i>
-                                <p className='m-0'>+62 123456789</p>
+                                <p className='m-0'>+62 896 1234 4321</p>
                             </Link>
                         </div>
                         <div className='mail'>
                             <Link className='text-decoration-none'>
                                 <i className='fa-regular fa-envelope'></i>
-                                <p className='m-0'>Email : Email@gmail.com</p>
+                                <p className='m-0'>Email : Bengkelin@gmail.com</p>
                             </Link>
                         </div>
                     </Col>
@@ -25,9 +25,9 @@ const FooterComponents = () => {
                         <h5 className='fw-bold'>Menu</h5>
                         <Link to="" >Home</Link>
                         <Link to="kelas" >Layanan</Link>
-                        <Link to="testimonial" >Testimonial</Link>
+                        <Link to="mitra" >Mitra</Link>
                         <Link to="faq" >Bantuan</Link>
-                        <Link to="syaratketen" >Kontak</Link>
+                        <Link to="kontak" >Kontak</Link>
                     </Col>
                     <Col lg="4" className='mt-lg-0 mt-5'>
                         <h5 className='fw-bold mb-3'>Info menarik lainya</h5>

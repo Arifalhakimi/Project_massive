@@ -57,6 +57,9 @@ const NavbarComponent = () => {
                         ) : (
                             // Tampilkan NavLinks dan tombol Login/Register jika bukan di halaman mitra, login, atau register
                             <>
+                                <Navbar.Brand href="#home" className="logo-navbar fs-3 fw-bold">
+                                    Bengkel.In
+                                </Navbar.Brand>
                                 <Nav className="mx-auto text-center">
                                     {navLinks.map((Links) => (
                                         <div className="nav-link" key={Links.id}>

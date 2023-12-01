@@ -17,7 +17,7 @@ const AboutComponent = () => {
                     </Col>
                 </Row>
                 <Row className="my-4">
-                    <Col lg={4} className="shadow">
+                    <Col lg={4} className="image-about">
                         <img src={LogoBengkel} alt="About" className="img-fluid" data-aos="fade-up" data-aos-duration="1000" />
                     </Col>
                     <Col lg={8}>

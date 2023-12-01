@@ -221,16 +221,16 @@ export const semuaKelas = [
 export const tableHeaderDataPesanan = [
   {
     id: 1,
-    no: "no",
-    nama: "nama",
-    telepon: "telepon",
-    email: "email",
-    merekKendaraan: "merek kendaraan",
-    platKendaraan: "plat kendaraan",
-    layanan: "layanan",
-    waktuPesan: "waktu pesan",
-    alamat: "alamat",
-    pesanan: "pesanan",
+    no: "No",
+    nama: "Nama",
+    telepon: "Telepon",
+    email: "Email",
+    merekKendaraan: "Merek Kendaraan",
+    platKendaraan: "Plat Kendaraan",
+    layanan: "Layanan",
+    waktuPesan: "Waktu Pesan",
+    alamat: "Alamat",
+    pesanan: "Pesanan",
   }
 ];
 

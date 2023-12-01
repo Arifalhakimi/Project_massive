@@ -19,40 +19,40 @@ const RegistrasiFormMitra = () => {
                             <Col lg="4" >
                                 <div className="mb-3 mt-3">
                                     <label className="form-label">Email:</label>
-                                    <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
+                                    <input type="email" className="form-control" id="email" placeholder="Masukan email" name="email" />
                                 </div>
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">nama lengkap:</label>
-                                    <input type="namalengkap" className="form-control" id="namalengkap" placeholder="Enter nama lengkap" name="namalengkap" />
+                                    <label className="form-label">Nama Lengkap:</label>
+                                    <input type="namalengkap" className="form-control" id="namalengkap" placeholder="Masukan nama lengkap" name="namalengkap" />
                                 </div>
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">telp:</label>
-                                    <input type="telp" className="form-control" id="telp" placeholder="Enter Telepon" name="telp" />
+                                    <label className="form-label">Telp:</label>
+                                    <input type="telp" className="form-control" id="telp" placeholder="Masukan Telepon" name="telp" />
                                 </div>
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">desa:</label>
-                                    <input type="desa" className="form-control" id="desa" placeholder="Enter desa" name="desa" />
+                                    <label className="form-label">Desa:</label>
+                                    <input type="desa" className="form-control" id="desa" placeholder="Masukan desa" name="desa" />
                                 </div>
                             </Col>
                             <Col lg="7">
                                 <div className="mb-3 mt-3">
                                     <label className="form-label">Nama Bengkel:</label>
-                                    <input type="nama_bengkel" className="form-control" id="nama_bengkel" placeholder="Enter nama_bengkel" name="nama_bengkel" />
+                                    <input type="nama_bengkel" className="form-control" id="nama_bengkel" placeholder="Masukan nama_bengkel" name="nama_bengkel" />
                                 </div>
                                 <div className="form-check mb-3  d-flex  align-items-center">
                                     <label className="form-check-label mx-5  d-flex justify-content-center align-items-center">
-                                        <input className="form-check-input" type="checkbox" name="motor" /> motor
+                                        <input className="form-check-input" type="checkbox" name="motor" /> Motor
                                     </label>
                                     <label className="form-check-label  d-flex justify-content-center align-items-center">
-                                        <input className="form-check-input" type="checkbox" name="mobil" /> mobil
+                                        <input className="form-check-input" type="checkbox" name="mobil" /> Mobil
                                     </label>
                                 </div>
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">persyaratan:</label>
+                                    <label className="form-label">Persyaratan:</label>
                                     <input type="file" className="form-control" id="persyaratan" name="persyaratan" />
                                 </div>
                                 <div className="mb-3 mt-3">
-                                    <label className="form-label">alamat:</label>
+                                    <label className="form-label">Alamat:</label>
                                     <textarea className="form-control" rows="5" id="comment" name="text"></textarea>
                                 </div>
                                 <div className="submitregismitra">

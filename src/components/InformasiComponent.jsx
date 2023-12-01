@@ -13,7 +13,6 @@ const InformasiComponent = () => {
                 <Row>
                     <Col>
                         <h1 className="fw-bold text-center mb-2">Informasi</h1>
-                        <p className="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, minima!</p>
                     </Col>
                 </Row>
                 <Row className="content my-4">
@@ -28,7 +27,7 @@ const InformasiComponent = () => {
                                     <button className="btn btn-outline-dark"> <i className="fas fa-map-marker"></i> 5km</button>
                                 </Col>
                                 <Col lg="10" >
-                                    <h5>Karang-Parti,Pebayuran</h5>
+                                    <h5>Karangpatri,Pebayuran</h5>
                                 </Col>
                             </Row>
                             <div className="start d-flex">

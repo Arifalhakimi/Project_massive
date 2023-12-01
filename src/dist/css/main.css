@@ -490,12 +490,21 @@ header {
 
 .about-component .about-text {
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .about-component .about-text span {
   color: var(--secondary-color);
 }
+.about-component .image-about{
+display: flex;
+justify-content: center;
+}
+.about-component .image-about img{
+  width: 350px;
+  height: 350px;
+}
+
 
 /* about end */
 
@@ -678,9 +687,8 @@ header {
 }
 
 .Contact-page .Contact img {
-  margin-top: 18px;
-  width: 100%;
-  height: 355px;
+  width: 400px;
+  height: 400px;
 }
 
 /* syarat dan ketentuan end */
