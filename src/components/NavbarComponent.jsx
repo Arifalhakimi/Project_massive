@@ -33,7 +33,7 @@ const NavbarComponent = () => {
     <div>
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <Navbar.Brand href="#home" className="logo-navbar fs-3 fw-bold">
+          <Navbar.Brand href="/" className="logo-navbar fs-3 fw-bold">
             {isMitraPage ? "Bengkel.In" : null}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
