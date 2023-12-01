@@ -51,13 +51,13 @@ const NavbarComponent = () => {
               </div>
             ) : isLoginPage || isRegisterPage ? (
               // Tampilkan sesuatu jika di halaman login atau register
-              <Navbar.Brand href="#home" className="logo-navbar fs-3 fw-bold">
+              <Navbar.Brand href="/" className="logo-navbar fs-3 fw-bold">
                 Bengkel.In
               </Navbar.Brand>
             ) : (
               // Tampilkan NavLinks dan tombol Login/Register jika bukan di halaman mitra, login, atau register
               <>
-                <Navbar.Brand href="#home" className="logo-navbar fs-3 fw-bold">
+                <Navbar.Brand href="/" className="logo-navbar fs-3 fw-bold">
                   Bengkel.In
                 </Navbar.Brand>
                 <Nav className="mx-auto text-center">
