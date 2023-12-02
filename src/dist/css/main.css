@@ -164,6 +164,45 @@ header {
   }
 }
 
+/* jenis layanan start */
+.jenis-layanan-component {
+  background-color: var(--primary-color);
+  padding-top: 20px;
+}
+.jenis-layanan-component .row:nth-child(1){
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.jenis-layanan-component .row:nth-child(1) h1{
+  color: var(--color-text);
+}
+.jenis-layanan-component .row:nth-child(2){
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title{
+  font-weight: 600;
+  padding-top: 10px;
+}
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title i{
+  font-size: 35px;
+  margin-right: 10px;
+}
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title p{
+  font-size: 30px;
+}
+
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1  i{
+  font-size: 24px;
+  margin-right: 10px;
+}
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1  p{
+  font-size: 15px;
+}
+
+
+/* jenis layanan end */
+
 /* home page kelas */
 .homepage .service {
   background-color: var(--primary-color);

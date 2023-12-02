@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 // faqcompinent
 import FaqComponent from '../components/FaqComponent';
 import AboutComponent from '../components/AboutComponent';
+import JenisLayananComponent from '../components/JenisLayananComponent';
 
 import { kelasTerbaru, } from "../data/index";
 import { useNavigate } from "react-router-dom";
@@ -32,6 +33,9 @@ const HomePage = () => {
           </Row>
         </Container>
       </header>
+      <div>
+        <JenisLayananComponent/>
+      </div>
       <div className="service w-100 min-vh-100">
         <Container>
           <Row>
