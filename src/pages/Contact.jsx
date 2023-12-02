@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import FaqComponent from "../components/FaqComponent";
 import AboutImage from '../assets/img/logoBengkelin.png';
 
 
@@ -14,10 +13,10 @@ const ContactPage = () => {
               <p className="text-center ">Jika ada kendala serta keperluan silahkan hubungi kami</p>
             </Col>
           </Row>
-          <Row className="pt-5">
+          <Row className="pt-3">
             <Col lg="6">
               <div className="form-contact">
-                <form action="">
+                <form action="isi-form-contact">
                   <div className="mb-3 mt-3">
                     <input type="text" className="form-control" id="nama_lengkap" placeholder="Masukan nama lengkap" name="namalengkap" />
                   </div>
@@ -30,7 +29,7 @@ const ContactPage = () => {
                   <div className="mb-3 mt-3">
                     <textarea className="form-control" rows="5" id="comment" name="text" placeholder="Pesan"></textarea>
                   </div>
-                  <div className="submitcontact d-flex justify-content-start">
+                  <div className="submitcontact d-flex justify-content-end mx-3">
                     <button type="submit" className="btn btn-danger rounded-5 w-25">Submit</button>
                   </div>
                 </form>
@@ -42,7 +41,6 @@ const ContactPage = () => {
           </Row>
         </Container>
       </div>
-      <FaqComponent />
     </div>
   )
 }

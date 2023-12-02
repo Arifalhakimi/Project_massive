@@ -80,7 +80,7 @@ const InformasiComponent = () => {
                         </div>
                     </Col>
                     <Col lg="4">
-                        <h4>Jam Oprasional</h4>
+                        <h4>Jam Operasional</h4>
                         <div className="d-flex">
                             <div className="mx-2">
                                 <ul>

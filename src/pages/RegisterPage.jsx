@@ -52,11 +52,12 @@ const RegisterPage = () => {
                         </InputGroup.Text>
                     </InputGroup>
                 </Form.Group>
+
                 <Form.Group className="password mb-3 mx-5" controlId="formBasicConfirmPassword">
                     <InputGroup className="mb-3">
                         <Form.Control
                             type={showPassword ? 'text' : 'password'}
-                            placeholder="Masukkan kata sandi"
+                            placeholder="Konfirmasi kata sandi"
                         />
                         <InputGroup.Text id="basic-addon1">
                             {showPassword ? (

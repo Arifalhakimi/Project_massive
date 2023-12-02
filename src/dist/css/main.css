@@ -90,6 +90,10 @@ header {
     background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); */
 }
 
+.homepage .home-page-component {
+  background-color: var(--primary-color);
+}
+
 .homepage .header-box h1 {
   font-size: 3.1rem;
   font-weight: 600;
@@ -256,6 +260,7 @@ header {
 
 .testimonial h1 {
   color: var(--color-text);
+  font-weight: 600;
 }
 
 .testimonial .swiper {
@@ -294,11 +299,13 @@ header {
   cursor: grabbing;
 }
 
+.testimonial .swiper-slide .text {
+margin-bottom: 30px;
+}
+
 .testimonial .swiper-slide .desc {
   color: var(--color-text);
   font-weight: 500;
-  line-height: 2;
-  margin-bottom: 50px;
 }
 
 .testimonial .swiper-slide .people {
@@ -342,6 +349,11 @@ header {
 .service-page .row:nth-child(1) h1 {
   color: var(--color-text);
   --animation-delay: 0.5s;
+  margin-left: 45%;
+}
+
+.service-page .row .search2-bengkel{
+  margin-right: 45%;
 }
 
 .service-page .row:nth-child(1) p {
@@ -474,8 +486,7 @@ header {
 /* about start */
 .about-component {
   background-color: var(--primary-color);
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .about-component:nth-child(1) h1 {
@@ -490,17 +501,19 @@ header {
 
 .about-component .about-text {
   margin-left: 30px;
-  margin-top: 40px;
+  margin-top: 75px;
 }
 
 .about-component .about-text span {
   color: var(--secondary-color);
 }
-.about-component .image-about{
-display: flex;
-justify-content: center;
+
+.about-component .image-about {
+  display: flex;
+  justify-content: center;
 }
-.about-component .image-about img{
+
+.about-component .image-about img {
   width: 350px;
   height: 350px;
 }
@@ -522,14 +535,13 @@ justify-content: center;
 }
 
 .mitra-page .mitra {
-  padding-top: 100px;
+  padding-top: 80px;
   background-color: var(--primary-color);
-  padding-bottom: 100px;
 }
 
 .mitra-page .mitra .manfaat-mitra {
   color: var(--color-text);
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .mitra-page .mitra .manfaat-mitra p {
@@ -552,6 +564,7 @@ justify-content: center;
 .mitra-page .mitra .swiper {
   width: 70rem;
   height: 15rem;
+  padding-bottom: 50px;
 }
 
 .mitra-page .mitra .swiper-slide {
@@ -605,8 +618,8 @@ justify-content: center;
 /* registrasi-component start */
 .registrasi-component {
   background-color: var(--primary-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .registrasi-component .form-regis-bengkel .form-check-input {
@@ -627,6 +640,7 @@ justify-content: center;
   padding-top: 100px;
   background-color: var(--primary-color);
   color: var(--color-text);
+  padding-bottom: 100px;
 }
 
 .layanan-page .gambar-cadangan img {
@@ -673,6 +687,7 @@ justify-content: center;
 .Contact-page .Contact {
   padding-top: 150px;
   background-color: var(--primary-color);
+  padding-bottom: 30px;
 }
 
 .Contact-page .Contact h1 {
@@ -687,8 +702,11 @@ justify-content: center;
 }
 
 .Contact-page .Contact img {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 450px;
+}
+.Contact-page .Contact .form-contact{
+  margin-top: 50px;
 }
 
 /* syarat dan ketentuan end */
@@ -696,7 +714,7 @@ justify-content: center;
 /* faq start */
 .faq {
   padding-top: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   background-color: var(--primary-color);
 }
 
@@ -1106,7 +1124,7 @@ justify-content: center;
 .login-page form img {
   width: 250px;
   height: 250px;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 
 .login-page form button {

@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { semuaKelas } from "../data/index";
-import FaqComponent from "../components/FaqComponent";
 import { useNavigate } from "react-router-dom";
 
 const KelasPage = () => {
@@ -12,14 +11,14 @@ const KelasPage = () => {
     <div className="service-page">
       <div className="service min-vh-100">
         <Container fluid>
-          <Row className="headingBengkel ">
-            <Col lg="6" className="">
+          <Row className="headingBengkel">
+            <Col lg="6" className="pilih-bengkel">
               <div className="text-bengkel mt-3 ">
                 <h1 className="fw-bold animate__animated animate__fadeInUp animate__delay-1s">Pilih Bengkel</h1>
               </div>
             </Col>
             <Col lg="6" className="seacrh-bengkel d-flex justify-content-end">
-              <div className="">
+              <div className="search2-bengkel">
                 <form action="">
                   <div className="mb-3 mt-3">
                     <input type="text" className="form-control animate__animated animate__fadeInUp animate__delay-1s w-100 jus" id="seacrh" placeholder="Cari" name="seacrh" />
@@ -67,7 +66,6 @@ const KelasPage = () => {
           </Row>
         </Container>
       </div>
-      <FaqComponent />
     </div>
   );
 }

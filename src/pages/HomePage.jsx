@@ -51,7 +51,7 @@ const HomePage = () => {
                 <h6 className=' fw-bold  '> {kelas.nama} </h6>
                 <div className='start mb-2 '>
                   <i className="fa-solid fa-star"></i>
-                  <p>{ kelas.rating}</p>
+                  <p>{kelas.rating}</p>
                 </div>
               </Col>
             })}
@@ -62,17 +62,14 @@ const HomePage = () => {
                 Lihat semua Pelayanan<i className='fa-solid fa-chevron-right ms-3' ></i></button>
             </Col>
           </Row>
+
         </Container>
       </div>
-      <div className='about'>
+      <div className='home-page-component'>
         <AboutComponent />
-      </div>
-      <div>
         <TestiComponent />
+        <FaqComponent />
       </div>
-      {/* faq start */}
-      <FaqComponent />
-      {/* faq end */}
     </div>
   )
 }

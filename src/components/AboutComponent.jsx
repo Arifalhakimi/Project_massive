@@ -13,7 +13,7 @@ const AboutComponent = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className="fw-bold text-center mb-2">Tentang Kami</h1>
+                        <h1 className="fw-bold text-center">Tentang Kami</h1>
                     </Col>
                 </Row>
                 <Row className="my-4">

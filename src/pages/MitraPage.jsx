@@ -8,7 +8,6 @@ import { Pagination } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import FaqComponent from "../components/FaqComponent";
 import RegistrasiFormMitra from "../components/RegistrasiFormMitra";
 import CarouselComponent from "../components/CarouselComponent";
 
@@ -55,7 +54,7 @@ const mitra = () => {
                             >
                                 {manfaatMitra.map((manfaat) => {
                                     return (
-                                        <SwiperSlide key={manfaat.id} className=' shadow-sm '>
+                                        <SwiperSlide key={manfaat.id} className=' shadow'>
                                             <h4 className="title ">{manfaat.title}</h4>
                                             <h6 className="desc">{manfaat.desc} </h6>
                                         </SwiperSlide>
@@ -68,9 +67,6 @@ const mitra = () => {
                 </div>
                 <div>
                     <RegistrasiFormMitra />
-                </div>
-                <div>
-                    <FaqComponent />
                 </div>
             </div>
         </>

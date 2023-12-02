@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import {dataSwiper} from "../data/index"
+import { dataSwiper } from "../data/index"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,7 +10,7 @@ import { Pagination } from 'swiper/modules';
 
 const TestiComponent = () => {
     return (
-        <div className='testimonial py-5'>
+        <div className='testimonial '>
             <Container>
                 <Row>
                     <Col>
@@ -47,7 +47,9 @@ const TestiComponent = () => {
                     >
                         {dataSwiper.map((dataTesti) => {
                             return <SwiperSlide key={dataTesti.id} className=' shadow'>
-                                <p className='desc'> {dataTesti.desc} </p>
+                                <div className="text">
+                                    <p className='desc'> {dataTesti.desc} </p>
+                                </div>
                                 <div className='people'>
                                     <img src={dataTesti.image} alt="" />
                                     <div>
