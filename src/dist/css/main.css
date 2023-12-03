@@ -45,10 +45,12 @@
 
 .navbar .nav-link a:hover {
   color: var(--secondary-color);
+
 }
 
 .navbar .nav-link .active {
-  background-color: var(--secondary-color);
+  transition: color 1s, border-bottom 0.3s;
+  border-bottom: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 
@@ -81,17 +83,40 @@
 
 /* Home Page start */
 header {
+  position: relative;
   background: #c6ffdd;
   background: -webkit-linear-gradient(to bottom, #be181e 60%, #f6f8fd);
   background: linear-gradient(to bottom, #be181e 99%, #f6f8fd);
-
-  /* background: #c6ffdd;
-    background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd);
-    background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); */
+  color: #fff;
+  padding: 60px 0;
+  height: 550px;
+  /* Adjust the padding as needed */
 }
 
+header .container .header-box .col .text-container {
+  max-width: 500px;
+  /* Adjust the max-width as needed */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  color: #be181e;
+  background-color: #fff;
+}
+
+/* Add any additional styling as needed */
+
+
 .homepage .home-page-component {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color)
 }
 
 .homepage .header-box h1 {
@@ -117,8 +142,6 @@ header {
 }
 
 .homepage .header-box img {
-  width: 450px;
-  height: 250px;
   margin-left: 60px;
 }
 
@@ -169,34 +192,47 @@ header {
   background-color: var(--primary-color);
   padding-top: 20px;
 }
-.jenis-layanan-component .row:nth-child(1){
+
+.jenis-layanan-component .row:nth-child(1) {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.jenis-layanan-component .row:nth-child(1) h1{
+
+.jenis-layanan-component .row:nth-child(1) h1 {
   color: var(--color-text);
 }
-.jenis-layanan-component .row:nth-child(2){
+
+
+
+.jenis-layanan-component .row:nth-child(2) {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title{
+
+.jenis-layanan-component .row:nth-child(2) .col .card {
+  border-radius: 20px;
+}
+
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title {
   font-weight: 600;
   padding-top: 10px;
 }
-.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title i{
+
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title i {
   font-size: 35px;
   margin-right: 10px;
 }
-.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title p{
+
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .card-title p {
   font-size: 30px;
 }
 
-.jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1  i{
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1 i {
   font-size: 24px;
   margin-right: 10px;
 }
-.jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1  p{
+
+.jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1 p {
   font-size: 15px;
 }
 
@@ -306,21 +342,20 @@ header {
   width: 100%;
   height: 100%;
   padding-bottom: 20px;
+  box-shadow: #c6ffdd 100px;
 }
 
 .testimonial .swiper-slide {
   text-align: start;
-  font-size: 18px;
+  font-size: 16px;
   background: #fff;
-  padding: 20px;
-  height: 30rem;
+  padding: 10px;
+  height: 21rem;
   border-radius: 20px;
 
   /* Center slide text vertically */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   cursor: grab;
 }
 
@@ -339,7 +374,8 @@ header {
 }
 
 .testimonial .swiper-slide .text {
-margin-bottom: 30px;
+  margin-bottom: 10px;
+  height: 200px;
 }
 
 .testimonial .swiper-slide .desc {
@@ -349,9 +385,9 @@ margin-bottom: 30px;
 
 .testimonial .swiper-slide .people {
   display: flex;
-  align-items: center;
   width: 100%;
   column-gap: 10px;
+  margin-left: 6px;
 }
 
 .testimonial .swiper-slide .people h5,
@@ -388,11 +424,15 @@ margin-bottom: 30px;
 .service-page .row:nth-child(1) h1 {
   color: var(--color-text);
   --animation-delay: 0.5s;
-  margin-left: 45%;
+  margin-left: 20%;
 }
 
-.service-page .row .search2-bengkel{
-  margin-right: 45%;
+.service-page .row .search2-bengkel {
+  margin-right: 20%;
+}
+
+.service-page .row .search2-bengkel input {
+  width: 350px;
 }
 
 .service-page .row:nth-child(1) p {
@@ -744,7 +784,8 @@ margin-bottom: 30px;
   width: 500px;
   height: 450px;
 }
-.Contact-page .Contact .form-contact{
+
+.Contact-page .Contact .form-contact {
   margin-top: 50px;
 }
 
@@ -1039,40 +1080,42 @@ margin-bottom: 30px;
 
 /* pemesanan-component start */
 .pemesanan-page {
-  background-color: var(--primary-color);
+  background-image: url("../../assets/img/bgiamge.jpeg");
 }
 
 .pemesanan-page .pemesanan {
-  background-color: var(--primary-color);
   padding-left: 10%;
   padding-right: 10%;
   color: var(--color-text);
 }
 
-.pemesanan-page .pemesanan .form-pemesanan {
-  padding-bottom: 50px;
-  padding-top: 9rem;
-}
+.pemesanan-page .pemesanan form{
+  padding-top: 100px;
 
-.pemesanan-page .pemesanan .form-pemesanan img {
-  width: 250px;
-  height: 250px;
+}
+.pemesanan-page .pemesanan .form-pemsanan-input .gambar{
+  margin: 0;
+}
+.pemesanan-page .pemesanan .form-pemsanan-input .gambar img {
+  width: 400px;
+  height: 400px;
 }
 
 .pemesanan-page .pemesanan .form-pemsanan-input {
-  padding: 2rem 5rem 2rem 5rem;
-  background-color: #ffffff;
+  padding: 0rem 5rem 5rem 5rem;
+  background-color: #daccccc4;
+  border-radius: 40px;
+  border: var(--secondary-color) 1px solid;
 }
 
 .pemesanan-page .pemesanan .form-pemsanan-input h3 {
   font-weight: 600;
   padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
+  margin-left: 3px;
 }
 
-.pemesanan-page .pemesanan .form-pemsanan-input .inputan .mb-3 {
-  border: 1px solid var(--navbar-color-text);
+.pemesanan-page .pemesanan .form-pemsanan-input .inputan-masalah-desc{
+  width: 100%;
 }
 
 /* pemesanan-component end */
@@ -1144,7 +1187,7 @@ margin-bottom: 30px;
   padding-top: 100px;
   display: flex;
   justify-content: center;
-  background-image: url("../../assets/img/kelas/kelas-1.jpg");
+  background-image: url("../../assets/img/bglogin.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1172,11 +1215,9 @@ margin-bottom: 30px;
 }
 
 .login-page form .icon {
-  margin-left: 237px;
-}
-
-.login-page form .icon i {
-  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-right: 115px;
 }
 
 .login-page form .lupa-kata-sandi span {
@@ -1202,6 +1243,10 @@ margin-bottom: 30px;
 .login-page form .password i:hover {
   cursor: pointer;
 }
+.login-page form .icon img{
+  width: 55px;
+  height: 55px;
+}
 
 /* loginPage end */
 /* register start */
@@ -1209,7 +1254,7 @@ margin-bottom: 30px;
   padding-top: 100px;
   display: flex;
   justify-content: center;
-  background-image: url("../../assets/img/kelas/kelas-1.jpg");
+  background-image: url("../../assets/img/bglogin.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

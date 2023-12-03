@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Container, Form, Button, InputGroup } from 'react-bootstrap';
 import IconBengkel from '../assets/img/iconBengkel.png';
 import { useNavigate } from "react-router-dom";
+import LogoGoogle from "../assets/img/logogoogle.png";
 
 const LoginPage = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -54,7 +55,7 @@ const LoginPage = () => {
                     Atau masuk dengan
                 </Form.Text>
                 <div className="icon mt-2">
-                    <i className="fab fa-google"></i>
+                    <img src={LogoGoogle} alt="" />
                 </div>
                 <Form.Text className="text-muted d-flex justify-content-center mb-5 mt-2">
                     Belum punya akun? <span onClick={() => Navigate('/register')}>Daftar</span>

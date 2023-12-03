@@ -12,12 +12,12 @@ const InformasiComponent = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className="fw-bold text-center mb-2">Informasi</h1>
+                        <h1 className="fw-bold text-center mb-2" data-aos="fade-up" data-aos-duration="1000">Informasi</h1>
                     </Col>
                 </Row>
-                <Row className="content my-4">
-                    <Col lg={4} className="shadow">
-                        <img src={AboutImage} alt="About" className="img-fluid" data-aos="fade-up" data-aos-duration="1000" />
+                <Row className="content my-4 " data-aos="fade-up" data-aos-duration="1000">
+                    <Col lg={4} className="">
+                        <img src={AboutImage} alt="About" className="img-fluid rounded-2" />
                     </Col>
                     <Col lg={8}>
                         <div className="content-text">
@@ -36,7 +36,7 @@ const InformasiComponent = () => {
                             </div>
                         </div>
                         <div>
-                            <p className="" data-aos="fade-up" data-aos-duration="1000" >
+                            <p className=""  >
                                 <h4 className="fw-bold">Deskripsi</h4>
                                 Bengkel Mang Uloh adalah bengkel motor umum yang berada di wilayah desa Karangpatri Kecamatan Pebayuran Kabupaten Bekasi Jawa Barat. Bengkel ini sudah sangat melegenda, karena sudah ada sejak tahun 1992. Bengkel ini didirikan oleh Mang Uloh sendiri. Bengkel ini sangat banyak diminati oleh kalangan hobiis otomotif, karena para montir atau pekerja di bengkel ini memiliki skill yang di atas rata-rata, maka tak heran bengkel ini selalu ramai pengunjung.
                             </p>

@@ -47,13 +47,15 @@ const TestiComponent = () => {
                     >
                         {dataSwiper.map((dataTesti) => {
                             return <SwiperSlide key={dataTesti.id} className=' shadow'>
-                                <div className="text">
+                                <div className="text mt-3 mx-2">
                                     <p className='desc'> {dataTesti.desc} </p>
                                 </div>
                                 <div className='people'>
-                                    <img src={dataTesti.image} alt="" />
                                     <div>
-                                        <h5 className='mb-1'> {dataTesti.name} </h5>
+                                        <img src={dataTesti.image} alt="" />
+                                    </div>
+                                    <div>
+                                        <h5 className='mt-3'> {dataTesti.name} </h5>
                                         <p className='m-0 fw-bold'>{dataTesti.skill}</p>
                                     </div>
                                 </div>

@@ -79,28 +79,66 @@ function JenisLayananComponent() {
                             </Card>
                         </Col>
                         <Col className=' d-flex justify-content-center'>
-                            <Card style={{ width: '34rem' }}>
+                            <Card className='shadow' style={{ width: '34rem' }}>
                                 <Card.Body>
                                     <Card.Title className='title d-flex justify-content-center'>
-                                        <i className='fas fa-car-side'></i>
+                                        <i className='	fas fa-motorcycle'></i>
                                         <p>Mobil</p>
                                     </Card.Title>
-                                    <Card.Body className='d-flex'>
-                                        <Col lg="6">
-                                            <ListGroup variant="list-group-flush">
-                                                <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                                                <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                                                <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                                    <div className='border-kendaraan d-flex justify-content-center'>
+                                        <Col lg="6" className='baris1 '>
+                                            <ListGroup variant="list-group-flush mx-2 my-1">
+                                                <ListGroup.Item className='item-border-kendaraan d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
+                                            </ListGroup>
+                                            <ListGroup variant="list-group-flush mx-2 my-1 ">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='fas fa-dot-circle'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
+                                            </ListGroup>
+                                            <ListGroup variant="list-group-flush mx-2 my-1 ">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
+                                            </ListGroup>
+                                            <ListGroup variant="list-group-flush mx-2 my-1 ">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
                                             </ListGroup>
                                         </Col>
-                                        <Col lg="6">
-                                            <ListGroup variant="list-group-flush">
-                                                <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                                                <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                                                <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                                        <Col lg="6" className='baris1'>
+                                            <ListGroup variant="list-group-flush mx-2 my-1">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
+                                            </ListGroup>
+                                            <ListGroup variant="list-group-flush mx-2 my-1 ">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
+                                            </ListGroup>
+                                            <ListGroup variant="list-group-flush mx-2 my-1 ">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
+                                            </ListGroup>
+                                            <ListGroup variant="list-group-flush mx-2 my-1 ">
+                                                <ListGroup.Item className='d-flex '>
+                                                    <i className='	fas fa-oil-can'></i>
+                                                    <p>Ganti Oli</p>
+                                                </ListGroup.Item>
                                             </ListGroup>
                                         </Col>
-                                    </Card.Body>
+                                    </div>
                                     <Card.Link href="#">Card Link</Card.Link>
                                     <Card.Link href="#">Another Link</Card.Link>
                                 </Card.Body>
