@@ -8,11 +8,9 @@ import BengkelImage7 from "../assets/img/bengkel/bengkel7.jpg";
 import BengkelImage8 from "../assets/img/bengkel/bengkel8.jpg";
 import BengkelImage9 from "../assets/img/bengkel/bengkel9.jpg";
 
-import People1 from "../assets/img/testimonial/people-1.jpg";
-import People2 from "../assets/img/testimonial/people-2.jpg";
-import People3 from "../assets/img/testimonial/people-3.jpg";
-
-
+import People1 from "../assets/img/testimonial/hana.png";
+import People2 from "../assets/img/testimonial/nita.png";
+import People3 from "../assets/img/testimonial/wahyu.png";
 
 export const navLinks = [
   {
@@ -82,11 +80,10 @@ export const semuaKelas = [
     title: "Faiz bengkel",
     price: "Rp. 300.000",
     buy: "Detail",
-    rating:"4.9",
+    rating: "4.9",
     address: "Kp. Pisangan - Karangpatri . 5 KM",
     delay: "1300",
     desc: "Bengkel Mang Uloh adalah bengkel motor umum yang berada di wilayah desa Karangpatri Kecamatan Pebayuran Kabupaten Bekasi Jawa Barat. Bengkel ini sudah sangat melegenda, karena sudah ada sejak tahun 1992. Bengkel ini didirikan oleh Mang Uloh sendiri. Bengkel ini sangat banyak diminati oleh kalangan hobiis otomotif, karena para montir atau pekerja di bengkel ini memiliki skill yang di atas rata-rata, maka tak heran bengkel ini selalu ramai pengunjung.",
-
   },
   {
     id: 2,
@@ -97,10 +94,10 @@ export const semuaKelas = [
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star-half-stroke",
     iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
+    title: "Ajizi bengkel",
     price: "Rp. 300.000",
     buy: "Detail",
-    rating:"4.5",
+    rating: "4.5",
     address: "Kp. Kademangan",
     delay: "1600",
   },
@@ -113,10 +110,10 @@ export const semuaKelas = [
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star-half-stroke",
     iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
+    title: "Jaya bengkel",
     price: "Rp. 300.000",
     buy: "Detail",
-    rating:"4.5",
+    rating: "4.5",
     address: "Kp. Kademangan",
     delay: "1900",
   },
@@ -129,10 +126,10 @@ export const semuaKelas = [
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star-half-stroke",
     iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
+    title: "Automeize",
     price: "Rp. 300.000",
     buy: "Detail",
-    rating:"4.5",
+    rating: "4.5",
     address: "Kp. Kademangan",
     delay: "300",
   },
@@ -143,10 +140,10 @@ export const semuaKelas = [
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
     star4: "fa-solid fa-star",
-    rating:"4.5",
+    rating: "4.5",
     star5: "fa-solid fa-star-half-stroke",
     iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
+    title: "Putra Tunggal",
     price: "Rp. 300.000",
     buy: "Detail",
     address: "Kp. Kademangan",
@@ -161,58 +158,10 @@ export const semuaKelas = [
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star-half-stroke",
     iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
+    title: "Hadi Bengkel",
     price: "Rp. 300.000",
     buy: "Detail",
-    rating:"4.5",
-    address: "Kp. Kademangan",
-    delay: "900",
-  },
-  {
-    id: 7,
-    image: BengkelImage7,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
-    price: "Rp. 300.000",
-    buy: "Detail",
-    rating:"4.5",
-    address: "Kp. Kademangan",
-    delay: "300",
-  },
-  {
-    id: 8,
-    image: BengkelImage8,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
-    price: "Rp. 300.000",
-    buy: "Detail",
-    rating:"4.5",
-    address: "Kp. Kademangan",
-    delay: "600",
-  },
-  {
-    id: 9,
-    image: BengkelImage9,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    iconAlamat: "fas fa-map-marker",
-    title: "Faiz bengkel",
-    price: "Rp. 300.000",
-    buy: "Detail",
-    rating:"4.5",
+    rating: "4.5",
     address: "Kp. Kademangan",
     delay: "900",
   },
@@ -231,9 +180,8 @@ export const tableHeaderDataPesanan = [
     waktuPesan: "Waktu Pesan",
     alamat: "Alamat",
     pesanan: "Pesanan",
-  }
+  },
 ];
-
 
 export const tableDataPesanan = [
   {
@@ -328,7 +276,7 @@ export const kelasTerbaru = [
     title: "Tambal Ban",
     nama: "Faiz Bengkel",
     alamat: "KarangPatri-Pembayuran . 5KM",
-    iconAlamat:"fas fa-map-marker",
+    iconAlamat: "fas fa-map-marker",
     desc: "Perbaiki motor anda Segera!!!",
     buy: "Mulai",
     delay: "",
@@ -345,7 +293,7 @@ export const kelasTerbaru = [
     title: "Ganti Oli",
     nama: "Ajizi Bengkel",
     alamat: "KarangPatri-Pembayuran . 5.8KM",
-    iconAlamat:"fas fa-map-marker",
+    iconAlamat: "fas fa-map-marker",
     desc: "Perbaiki mobil anda",
     buy: "Mulai",
     delay: "200",
@@ -362,7 +310,7 @@ export const kelasTerbaru = [
     title: "Servis Ringan",
     nama: "Jaya Bengkel",
     alamat: "KarangPatri-Pembayuran . 10KM",
-    iconAlamat:"fas fa-map-marker",
+    iconAlamat: "fas fa-map-marker",
     desc: "Perbaiki mobil anda",
     buy: "Mulai",
     delay: "200",
@@ -440,32 +388,32 @@ export const manfaatMitra = [
   {
     id: 1,
     title: "Akses Utama",
-    desc: "Mitra bengkel akan memiliki halaman khusus pada website Bengkel.in dengan tampilan yang menarik"
+    desc: "Mitra bengkel akan memiliki halaman khusus pada website Bengkel.in dengan tampilan yang menarik",
   },
   {
     id: 2,
     title: "Peningkatan Profit",
-    desc: "Mitra bengkel dapat mengiklankan promo-promonya melalui website Bengkel.in"
+    desc: "Mitra bengkel dapat mengiklankan promo-promonya melalui website Bengkel.in",
   },
   {
     id: 3,
     title: "Kelola Bisnis Berkelanjutan",
-    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain",
   },
   {
     id: 4,
     title: "Kelola Bisnis Berkelanjutan",
-    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain",
   },
   {
     id: 5,
     title: "Kelola Bisnis Berkelanjutan",
-    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain",
   },
   {
     id: 6,
     title: "Kelola Bisnis Berkelanjutan",
-    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain"
+    desc: "Tim Bengkel.in akan mengiklankan mitra bengkel di channel berbayar seperti Google ads, Facebook ads, dan lain-lain",
   },
 ];
 
@@ -474,22 +422,22 @@ export const dataSwiper = [
     id: 1,
     desc: "Saya sangat puas dengan layanan servis online ini. Pelayanannya cepat, responsif, dan profesional. Masalah saya terselesaikan dengan baik, dan saya akan merekomendasikan kepada teman-teman saya.",
     image: People1,
-    name: "People 1",
-    skill: "UI UX Designer",
+    name: "Nita Kurniasari",
+    skill: "Pengendara/Pelanggan",
   },
   {
     id: 2,
     desc: "Pertama kali mencoba layanan ini, dan saya sangat terkesan. Tim servis online sangat membantu dan ramah. Mereka memberikan solusi cepat untuk masalah saya. Sangat merekomendasikan!",
     image: People2,
-    name: "People 2",
-    skill: "Flutter Developer",
+    name: "Hana Husna",
+    skill: "Pengendara/Pelanggan",
   },
   {
     id: 3,
     desc: "Layanan pelanggan yang luar biasa! Saya mengalami masalah teknis, dan mereka tidak hanya memperbaikinya dengan cepat tetapi juga memberikan panduan yang jelas untuk mencegah hal yang sama terjadi lagi. Terima kasih!",
     image: People3,
-    name: "People 3",
-    skill: "Web Developer",
+    name: "Wahyudin",
+    skill: "Pengendara/Pelanggan",
   },
   {
     id: 4,
@@ -525,13 +473,13 @@ export const faq = [
     id: 2,
     eventKey: 1,
     title: "Bagaimana cara mendaftar menjadi mitra?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    desc: "Isi dan Lengkapi Form yang sudah disediakan, dan diharapkan dapat diisi sesuai ketentuan dan syarat yang telah ada",
   },
   {
     id: 3,
     eventKey: 2,
     title: "Bagaimana kinerja montir?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    desc: "Pada Bengkel.In ini kami mengajak bengkel-bengkel sebagai mitra kami yang akan membantu pelanggan agar dapat pelayanan perbaikan kendaraan, dan dapat memanggil montir dari bengkel-bengkel yang menjadi mitra di Bengkel.In ini",
   },
   {
     id: 4,
