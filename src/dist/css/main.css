@@ -228,12 +228,18 @@ h1 {
 }
 
 .jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1 i {
-  font-size: 24px;
+  font-size: 30px;
   margin-right: 10px;
+  margin-top: 12px;
+  width: 10px;
+  height: 10px;
 }
 
 .jenis-layanan-component .row:nth-child(2) .col .card .card-body .border-kendaraan .baris1 p {
-  font-size: 15px;
+  font-size: 18px;
+  margin-top: 13px;
+  margin-left: 40px;
+  font-weight: 600;
 }
 
 

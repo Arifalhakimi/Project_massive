@@ -4,9 +4,9 @@ import BengkelImage3 from "../assets/img/bengkel/bengkel3.jpeg";
 import BengkelImage4 from "../assets/img/bengkel/bengkel4.jpeg";
 import BengkelImage5 from "../assets/img/bengkel/bengkel5.jpeg";
 import BengkelImage6 from "../assets/img/bengkel/bengkel6.jpg";
-import BengkelImage7 from "../assets/img/bengkel/bengkel7.jpg";
-import BengkelImage8 from "../assets/img/bengkel/bengkel8.jpg";
-import BengkelImage9 from "../assets/img/bengkel/bengkel9.jpg";
+// import BengkelImage7 from "../assets/img/bengkel/bengkel7.jpg";
+// import BengkelImage8 from "../assets/img/bengkel/bengkel8.jpg";
+// import BengkelImage9 from "../assets/img/bengkel/bengkel9.jpg";
 
 import People1 from "../assets/img/testimonial/hana.png";
 import People2 from "../assets/img/testimonial/nita.png";
